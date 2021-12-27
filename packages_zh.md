@@ -1,3 +1,11 @@
+- [软件仓库](packages_zh.md)
+
+- [ISO 仓库](releases_zh.md)
+
+# 软件仓库
+
+[English](packages_en.md) | [简体中文](packages_zh.md)
+
 ## 官方软件仓库
 
 [https://community-packages.deepin.com/deepin/](https://community-packages.deepin.com/deepin/)

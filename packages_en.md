@@ -1,3 +1,11 @@
+- [Packages Repository](packages_en.md)
+
+- [ISO Repository](releases_en.md)
+
+# Packages Repository
+
+[English](packages_en.md) | [简体中文](packages_zh.md)
+
 ## Official Packages Repository
 
 [https://community-packages.deepin.com/deepin/](https://community-packages.deepin.com/deepin/)
@@ -189,7 +197,7 @@ Sincerely thank the following universities, open-source communities and companie
 | ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232272Vietnam.jpg) Vietnam                  |                                                                             |                                                                           |                                                                           |                                                            |
 | freedif                                                                                                | [http](http://mirror.freedif.org/Deepin/deepin/)                            |                                                                           |                                                                           |                                                            |
 
-## How to provide a mirror:
+## How to provide a mirror
 
 | Synchronization command                                                  | Space needed |
 | ------------------------------------------------------------------------ | ------------ |

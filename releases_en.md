@@ -1,3 +1,11 @@
+- [Packages Repository](packages_en.md)
+
+- [ISO Repository](releases_en.md)
+
+# ISO Repository
+
+[English](releases_en.md) | [简体中文](releases_zh.md)
+
 ## Official ISO Repository
 
 [http://cdimage.deepin.com/](http://cdimage.deepin.com/)
