@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="mark.css" />
+
 - [软件仓库](packages_zh.md)
 
 - [ISO 仓库](releases_zh.md)
