@@ -1,3 +1,7 @@
+---
+title: "Packages Repository"
+---
+
 <link rel="stylesheet" href="mark.css" />
 
 - [Packages Repository](packages_en.md)
@@ -6,7 +10,7 @@
 
 # Packages Repository
 
-[English](packages_en.md) | [简体中文](packages_zh.md)
+[English](packages_en.md) \| [简体中文](packages_zh.md)
 
 ## Official Packages Repository
 

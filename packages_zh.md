@@ -1,3 +1,7 @@
+---
+title: "软件仓库"
+---
+
 <link rel="stylesheet" href="mark.css" />
 
 - [软件仓库](packages_zh.md)
@@ -6,7 +10,7 @@
 
 # 软件仓库
 
-[English](packages_en.md) | [简体中文](packages_zh.md)
+[English](packages_en.md) \| [简体中文](packages_zh.md)
 
 ## 官方软件仓库
 
