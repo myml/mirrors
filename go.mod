@@ -1,4 +1,4 @@
-module mirrors-check
+module github.com/myml/mirrors
 
 go 1.17
 

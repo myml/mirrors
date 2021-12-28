@@ -90,8 +90,8 @@ func checkRelease(url string) {
 
 func main() {
 	var packageURL, releaseURL string
-	flag.StringVar(&packageURL, "package_url", "", "package mirrors url")
-	flag.StringVar(&releaseURL, "release_url", "", "release mirrors url")
+	flag.StringVar(&packageURL, "packages_url", "", "package mirrors url")
+	flag.StringVar(&releaseURL, "releases_url", "", "release mirrors url")
 	flag.Parse()
 	switch {
 	case len(packageURL) > 0:
