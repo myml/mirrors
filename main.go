@@ -35,35 +35,30 @@ func checkPackage(url string) {
 			}
 		}
 	})
-	doc.Find("table").First().
-		Find("tbody tr").Each(func(trIndex int, tr *goquery.Selection) {
-		tr.Find("td").Each(func(tdIndex int, td *goquery.Selection) {
-			td.Find("a").Each(func(_ int, s *goquery.Selection) {
-				href := s.AttrOr("href", "")
-				if !strings.HasPrefix(href, "http") {
-					fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
-					fmt.Println(css(trIndex, tdIndex, "lightgrey"))
-					return
-				}
-				contentLength, lastModified, err := head(inReleaseURL(href))
-				if err != nil {
-					log.Println(href, "失败", err)
-					fmt.Printf("/* url: %s msg: %s */\n", href, err)
-					fmt.Println(css(trIndex, tdIndex, "red"))
-					fmt.Println()
-					return
-				}
-				if contentLength != officialContentLength {
-					if officialLastModified.Sub(*lastModified) > time.Hour*24*7 {
-						log.Println(href, "过时")
-						fmt.Printf("/* url: %s msg: Outdated */\n", href)
-						fmt.Println(css(trIndex, tdIndex, "yellow"))
-						fmt.Println()
-						return
-					}
-				}
-			})
-		})
+	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
+		href := s.AttrOr("href", "")
+		if !strings.HasPrefix(href, "http") {
+			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
+			fmt.Println(cssA(href, "black", "lightgrey"))
+			return
+		}
+		contentLength, lastModified, err := head(inReleaseURL(href))
+		if err != nil {
+			log.Println(href, "失败", err)
+			fmt.Printf("/* url: %s msg: %s */\n", href, err)
+			fmt.Println(cssA(href, "white", "red"))
+			fmt.Println()
+			return
+		}
+		if contentLength != officialContentLength {
+			if officialLastModified.Sub(*lastModified) > time.Hour*24*7 {
+				log.Println(href, "过时")
+				fmt.Printf("/* url: %s msg: Outdated */\n", href)
+				fmt.Println(cssA(href, "black", "yellow"))
+				fmt.Println()
+				return
+			}
+		}
 	})
 }
 
@@ -72,29 +67,24 @@ func checkRelease(url string) {
 	if err != nil {
 		panic(err)
 	}
-	doc.Find("table").First().
-		Find("tbody tr").Each(func(trIndex int, tr *goquery.Selection) {
-		tr.Find("td").Each(func(tdIndex int, td *goquery.Selection) {
-			td.Find("a").Each(func(_ int, s *goquery.Selection) {
-				href := s.AttrOr("href", "")
-				if !strings.HasPrefix(href, "http") {
-					fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
-					fmt.Println(css(trIndex, tdIndex, "lightgrey"))
-					return
-				}
-				_, _, err := head(href)
-				if err != nil {
-					if errors.Is(err, ErrNotFoundLastModified) {
-						return
-					}
-					log.Println(href, "失败", err)
-					fmt.Printf("/* url: %s msg: %s */\n", href, err)
-					fmt.Println(css(trIndex, tdIndex, "red"))
-					fmt.Println()
-					return
-				}
-			})
-		})
+	doc.Find("table").Find("a").Each(func(_ int, s *goquery.Selection) {
+		href := s.AttrOr("href", "")
+		if !strings.HasPrefix(href, "http") {
+			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
+			fmt.Println(cssA(href, "black", "lightgrey"))
+			return
+		}
+		_, _, err := head(href)
+		if err != nil {
+			if errors.Is(err, ErrNotFoundLastModified) {
+				return
+			}
+			log.Println(href, "失败", err)
+			fmt.Printf("/* url: %s msg: %s */\n", href, err)
+			fmt.Println(cssA(href, "white", "red"))
+			fmt.Println()
+			return
+		}
 	})
 }
 
@@ -143,6 +133,6 @@ func inReleaseURL(href string) string {
 	return strings.Trim(href, "/") + "/dists/apricot/InRelease"
 }
 
-func css(trIndex, tdIndex int, bgColor string) string {
-	return fmt.Sprintf(`table:first-of-type tr:nth-child(%d) td:nth-child(%d) { background-color: %s; }`, trIndex+1, tdIndex+1, bgColor)
+func cssA(href string, color, bgColor string) string {
+	return fmt.Sprintf(`a[href="%s"] { padding: 3px; color: %s; background-color: %s; }`, href, color, bgColor)
 }
