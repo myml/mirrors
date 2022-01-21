@@ -50,11 +50,13 @@ func checkPackage(path string) {
 	// })
 	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
 		href := s.AttrOr("href", "")
-		// if !strings.HasPrefix(href, "http") {
-		// 	fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
-		// 	fmt.Println(cssA(href, "black", "lightgrey"))
-		// 	return
-		// }
+		if !strings.HasPrefix(href, "http") {
+			// 禁止不支持的协议标记
+			return
+			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
+			fmt.Println(cssA(href, "black", "lightgrey"))
+			return
+		}
 		contentLength, lastModified, err := head(inReleaseURL(href))
 		if err != nil {
 			log.Println(href, "失败", err)
