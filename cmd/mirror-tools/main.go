@@ -13,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/avast/retry-go"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -64,15 +65,17 @@ func runMirrorCheck(ctx context.Context, mirrorSourceFile string, timeout time.D
 		return err
 	}
 	check := func(m MirrorSource) error {
-		href := m.URL
-		ctx, cancel := context.WithTimeout(ctx, timeout)
-		defer cancel()
-		_, _, err = head(ctx, inReleaseURL(href))
-		if err != nil {
-			log.Println(m.Name, err, m.URL)
+		return retry.Do(func() error {
+			href := m.URL
+			ctx, cancel := context.WithTimeout(ctx, timeout)
+			defer cancel()
+			_, _, err = head(ctx, inReleaseURL(href))
+			if err != nil {
+				log.Println(m.Name, err, m.URL)
+				return err
+			}
 			return err
-		}
-		return err
+		})
 	}
 	var eg errgroup.Group
 	var ch = make(chan struct{}, runtime.NumCPU())
