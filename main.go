@@ -19,6 +19,22 @@ var (
 	ErrNotFoundLastModified = errors.New("not found last modified")
 )
 
+func main() {
+	var packagePATH, releasePATH, checkFile string
+	flag.StringVar(&packagePATH, "packages_path", "", "package mirrors markdown file path")
+	flag.StringVar(&releasePATH, "releases_path", "", "release mirrors markdown file path")
+	flag.StringVar(&checkFile, "check_file", "", "check file path")
+	flag.Parse()
+	switch {
+	case len(packagePATH) > 0:
+		checkPackage(packagePATH, checkFile)
+	case len(releasePATH) > 0:
+		checkRelease(releasePATH, checkFile)
+	default:
+		flag.PrintDefaults()
+	}
+}
+
 func newDoc(path string) (*goquery.Document, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {
@@ -29,7 +45,7 @@ func newDoc(path string) (*goquery.Document, error) {
 }
 
 // 检查软件镜像
-func checkPackage(path string) {
+func checkPackage(path, checkFile string) {
 	doc, err := newDoc(path)
 	if err != nil {
 		panic(err)
@@ -51,13 +67,12 @@ func checkPackage(path string) {
 	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
 		href := s.AttrOr("href", "")
 		if !strings.HasPrefix(href, "http") {
-			// 禁止不支持的协议标记
-			return
-			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
-			fmt.Println(cssA(href, "black", "lightgrey"))
+			// 标记不支持的协议
+			// fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
+			// fmt.Println(cssA(href, "black", "lightgrey"))
 			return
 		}
-		contentLength, lastModified, err := head(inReleaseURL(href))
+		contentLength, lastModified, err := head(strings.Trim(href, "/") + checkFile)
 		if err != nil {
 			log.Println(href, "失败", err)
 			fmt.Printf("/* url: %s msg: %s */\n", href, err)
@@ -65,8 +80,10 @@ func checkPackage(path string) {
 			fmt.Println()
 			return
 		}
+		log.Println(href, "有效")
 		_ = contentLength
 		_ = lastModified
+		// 标记过期的镜像仓库
 		// if contentLength != officialContentLength {
 		// 	if officialLastModified.Sub(*lastModified) > time.Hour*24*7 {
 		// 		log.Println(href, "过时")
@@ -80,7 +97,7 @@ func checkPackage(path string) {
 }
 
 // 检查ISO镜像源
-func checkRelease(path string) {
+func checkRelease(path, checkFile string) {
 	doc, err := newDoc(path)
 	if err != nil {
 		panic(err)
@@ -88,12 +105,12 @@ func checkRelease(path string) {
 	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
 		href := s.AttrOr("href", "")
 		if !strings.HasPrefix(href, "http") {
-			return
-			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
-			fmt.Println(cssA(href, "black", "lightgrey"))
+			// 标记不支持的协议
+			// fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
+			// fmt.Println(cssA(href, "black", "lightgrey"))
 			return
 		}
-		_, _, err := head(href)
+		_, _, err := head(strings.Trim(href, "/") + checkFile)
 		if err != nil {
 			if errors.Is(err, ErrNotFoundLastModified) {
 				return
@@ -104,22 +121,8 @@ func checkRelease(path string) {
 			fmt.Println()
 			return
 		}
+		log.Println(href, "有效")
 	})
-}
-
-func main() {
-	var packagePATH, releasePATH string
-	flag.StringVar(&packagePATH, "packages_path", "", "package mirrors markdown file path")
-	flag.StringVar(&releasePATH, "releases_path", "", "release mirrors markdown file path")
-	flag.Parse()
-	switch {
-	case len(packagePATH) > 0:
-		checkPackage(packagePATH)
-	case len(releasePATH) > 0:
-		checkRelease(releasePATH)
-	default:
-		flag.PrintDefaults()
-	}
 }
 
 // 发送HEAD请求
@@ -147,10 +150,6 @@ func head(url string) (ContentLength int64, LastModified *time.Time, err error) 
 		return 0, nil, err
 	}
 	return contentLength, &t, nil
-}
-
-func inReleaseURL(href string) string {
-	return strings.Trim(href, "/") + "/dists/apricot/InRelease"
 }
 
 // 生成css标记
