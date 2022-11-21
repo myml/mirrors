@@ -112,7 +112,7 @@ func checkMirror(source, path, checkFile string) {
 
 // 发送HEAD请求
 func head(url string) (ContentLength int64, LastModified *time.Time, err error) {
-	req, err := http.NewRequest(http.MethodGet, url, nil)
+	req, err := http.NewRequest(http.MethodHead, url, nil)
 	if err != nil {
 		return 0, nil, err
 	}
