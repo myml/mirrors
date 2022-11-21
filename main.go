@@ -88,6 +88,7 @@ func checkRelease(path string) {
 	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
 		href := s.AttrOr("href", "")
 		if !strings.HasPrefix(href, "http") {
+			return
 			fmt.Printf("/* url: %s msg: Unsupported protocol */\n", href)
 			fmt.Println(cssA(href, "black", "lightgrey"))
 			return
