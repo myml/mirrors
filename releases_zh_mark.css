@@ -1,387 +1,342 @@
-/* url: http://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Get "http://ftp.yzu.edu.tw/Linux/deepin-cd/": dial tcp: lookup ftp.yzu.edu.tw on 127.0.0.1:53: no such host */
-a[href="http://ftp.yzu.edu.tw/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.yzu.edu.tw/Linux/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.yzu.edu.tw/Linux/deepin/ msg: Get "https://ftp.yzu.edu.tw/Linux/deepin/": dial tcp: lookup ftp.yzu.edu.tw on 127.0.0.1:53: no such host */
-a[href="https://ftp.yzu.edu.tw/Linux/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin-cd.mirror.globo.tech/ msg: Head "http://deepin-cd.mirror.globo.tech/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://ftp.stust.edu.tw/pub/Linux/deepin-cd/ msg: Get "http://ftp.stust.edu.tw/pub/Linux/deepin-cd/": dial tcp 120.117.2.90:80: i/o timeout */
-a[href="http://ftp.stust.edu.tw/pub/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin-cd.mirror.liteserver.nl/ msg: Head "http://deepin-cd.mirror.liteserver.nl/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin-cd.mirror.liteserver.nl: no such host */
+a[href="http://deepin-cd.mirror.liteserver.nl/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.stust.edu.tw/pub/Linux/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.stust.edu.tw/pub/Linux/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/ msg: 403 Forbidden */
-a[href="http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin.koyanet.lv/packages/ msg: 204 No Content */
+a[href="http://deepin.koyanet.lv/packages/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.ubuntu-tw.org/deepin/ msg: 404 Not Found */
-a[href="https://ftp.ubuntu-tw.org/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin.mirror.iodc.dk/releases/ msg: Head "http://deepin.mirror.iodc.dk/releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin.mirror.iodc.dk: no such host */
+a[href="http://deepin.mirror.iodc.dk/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.ubuntu-tw.org/deepin/ msg: 404 Not Found */
-a[href="https://ftp.ubuntu-tw.org/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://deepin.thaidns.co.th/deepin-cd msg: Head "http://deepin.thaidns.co.th/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 173.208.175.74:80: i/o timeout */
+a[href="http://deepin.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror-hk.koddos.net/deepin-cd/ msg: Get "http://mirror-hk.koddos.net/deepin-cd/": read tcp 10.20.52.83:46446->103.109.101.20:80: read: connection reset by peer */
-a[href="http://mirror-hk.koddos.net/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
+a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror-hk.koddos.net/deepin-cd/ msg: Get "https://mirror-hk.koddos.net/deepin-cd/": net/http: TLS handshake timeout */
-a[href="https://mirror-hk.koddos.net/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.cloud.tencent.com/deepin-cd/ msg: 404 Not Found */
-a[href="https://mirrors.cloud.tencent.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.heanet.ie/pub/deepin-cd/ msg: 404 Not Found */
+a[href="http://ftp.heanet.ie/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.zyrj.org/deepin-cdimage/ msg: Get "http://mirror.zyrj.org/deepin-cdimage/": dial tcp: lookup mirror.zyrj.org on 127.0.0.1:53: no such host */
-a[href="http://mirror.zyrj.org/deepin-cdimage/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.mirror.liteserver.nl/deepin-cd msg: Head "http://ftp.mirror.liteserver.nl/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup ftp.mirror.liteserver.nl: no such host */
+a[href="http://ftp.mirror.liteserver.nl/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.cqupt.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
-a[href="http://mirrors.cqupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.nankai.edu.cn/deepin-cd/ msg: Head "http://ftp.nankai.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup ftp.nankai.edu.cn: no such host */
+a[href="http://ftp.nankai.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.redrock.team/deepin-cd/ msg: 502 Bad Gateway */
-a[href="http://mirror.redrock.team/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/ msg: Head "http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://mirror.lzu.edu.cn/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror.lzu.edu.cn/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirrors.xmu.edu.cn/deepin/deepin-cd msg: 404 Not Found */
-a[href="http://mirrors.xmu.edu.cn/deepin/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.portlane.com/pub/os/linux/deepin-cd/ msg: Head "http://ftp.portlane.com/pub/os/linux/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://ftp.portlane.com/pub/os/linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://mirrors.xmu.edu.cn/deepin/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirrors.xmu.edu.cn/deepin/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirrors.linuxstory.org/deepin-cd/ msg: Get "http://mirrors.linuxstory.org/deepin-cd/": dial tcp: lookup mirrors.linuxstory.org on 127.0.0.1:53: no such host */
-a[href="http://mirrors.linuxstory.org/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.sjtu.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.nankai.edu.cn/deepin-cd/ msg: Get "http://ftp.nankai.edu.cn/deepin-cd/": dial tcp: lookup ftp.nankai.edu.cn on 127.0.0.1:53: no such host */
-a[href="http://ftp.nankai.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://ftp.stust.edu.tw/pub/Linux/deepin-cd/ msg: Head "http://ftp.stust.edu.tw/pub/Linux/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://ftp.stust.edu.tw/pub/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.jlu.edu.cn/deepin-cd/ msg: Get "http://mirrors.jlu.edu.cn/deepin-cd/": dial tcp 202.198.16.100:80: i/o timeout */
-a[href="http://mirrors.jlu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.cug.edu.cn/deepin-cd/ msg: Get "http://mirrors.cug.edu.cn/deepin-cd/": dial tcp 202.114.196.252:80: connect: connection refused */
-a[href="http://mirrors.cug.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.bjtu.edu.cn/deepin-cd/releases/ msg: Get "http://mirror.bjtu.edu.cn/deepin-cd/releases/": dial tcp 202.112.154.58:80: i/o timeout */
-a[href="http://mirror.bjtu.edu.cn/deepin-cd/releases/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.bit.edu.cn/deepin-cd msg: Get "http://mirror.bit.edu.cn/deepin-cd": dial tcp [2001:da8:204:1205::22]:80: connect: cannot assign requested address */
-a[href="http://mirror.bit.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.sjtu.edu.cn/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirrors.shu.edu.cn/deepin-cd msg: Get "http://mirrors.shu.edu.cn/deepin-cd": dial tcp 202.121.199.235:80: connect: connection refused */
-a[href="http://mirrors.shu.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.shu.edu.cn/deepin-cd msg: Get "https://mirrors.shu.edu.cn/deepin-cd": dial tcp 202.121.199.235:443: connect: connection refused */
-a[href="https://mirrors.shu.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.shu.edu.cn/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirrors.shu.edu.cn/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: rsync://mirrors.shu.edu.cn/deepin msg: Unsupported protocol */
-a[href="rsync://mirrors.shu.edu.cn/deepin"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirrors.geekpie.org/deepin-cd/ msg: Get "https://mirrors.geekpie.org/deepin-cd/": dial tcp 47.91.170.222:443: i/o timeout */
-a[href="https://mirrors.geekpie.org/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.jstvu.edu.cn/deepin-cd/ msg: Get "http://mirrors.jstvu.edu.cn/deepin-cd/": dial tcp 210.28.216.21:80: connect: no route to host */
-a[href="http://mirrors.jstvu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.hust.edu.cn/deepin-releases/ msg: Get "http://mirrors.hust.edu.cn/deepin-releases/": dial tcp 202.114.18.160:80: i/o timeout */
-a[href="http://mirrors.hust.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.hustunique.com/deepin-cd/ msg: Get "https://mirrors.hustunique.com/deepin-cd/": EOF */
-a[href="https://mirrors.hustunique.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.hustunique.com/deepin-cd/ msg: Get "https://mirrors.hustunique.com/deepin-cd/": EOF */
-a[href="https://mirrors.hustunique.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.hit4.edu.cn/deepin-cd/ msg: Get "http://mirrors.hit4.edu.cn/deepin-cd/": dial tcp: lookup mirrors.hit4.edu.cn on 127.0.0.1:53: no such host */
-a[href="http://mirrors.hit4.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.hit6.edu.cn/deepin-cd/ msg: Get "http://mirrors.hit6.edu.cn/deepin-cd/": dial tcp: lookup mirrors.hit6.edu.cn on 10.20.0.10:53: server misbehaving */
-a[href="http://mirrors.hit6.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.opencas.cn/deepin-cd msg: Get "http://mirrors.opencas.cn/deepin-cd": dial tcp [2001:cc0:2020:4075::211]:80: connect: cannot assign requested address */
-a[href="http://mirrors.opencas.cn/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.yun-idc.com/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirrors.yun-idc.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.skyshe.cn/deepin-cd/ msg: 404 Not Found */
-a[href="https://mirrors.skyshe.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.cn99.com/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirrors.cn99.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.aarnet.edu.au/pub/deepin/deepin-cd/ msg: 404 Not Found */
-a[href="https://mirror.aarnet.edu.au/pub/deepin/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.datamossa.io/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirror.datamossa.io/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://www.deepin.org/zh/mirrors/releases/deepin-cd msg: 404 Not Found */
-a[href="https://www.deepin.org/zh/mirrors/releases/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.launtel.net.au/deepin/cd/ msg: Get "http://mirror.launtel.net.au/deepin/cd/": dial tcp 45.248.51.28:80: connect: no route to host */
-a[href="http://mirror.launtel.net.au/deepin/cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.launtel.net.au/deepin/cd/ msg: Get "https://mirror.launtel.net.au/deepin/cd/": dial tcp 45.248.51.28:443: connect: no route to host */
-a[href="https://mirror.launtel.net.au/deepin/cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.inode.at/data/deepin-cd/ msg: 403 Forbidden */
-a[href="http://mirror.inode.at/data/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.inode.at/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror.inode.at/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.inode.at/mirror/deepin-cd/ msg: Get "https://mirror.inode.at/mirror/deepin-cd/": dial tcp 84.116.34.228:443: i/o timeout */
-a[href="https://mirror.inode.at/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.belnet.be/mirror/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirror.ufam.edu.br/deepin-cd msg: Get "http://mirror.ufam.edu.br/deepin-cd": dial tcp 200.129.163.17:80: i/o timeout */
-a[href="http://mirror.ufam.edu.br/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: rsync://deepin.c3sl.ufpr.br/deepin-cd msg: Unsupported protocol */
-a[href="rsync://deepin.c3sl.ufpr.br/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://sft.if.usp.br/deepin-cd msg: Unsupported protocol */
-a[href="ftp://sft.if.usp.br/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: rsync://sft.if.usp.br/deepin-cd msg: Unsupported protocol */
-a[href="rsync://sft.if.usp.br/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://deepin.ipacct.com/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://deepin.ipacct.com/deepin-cd/ msg: Get "https://deepin.ipacct.com/deepin-cd/": dial tcp 195.85.215.207:443: connect: connection refused */
-a[href="https://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.netix.net/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirrors.netix.net/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.frgl.pw/deepin-cd msg: Get "https://mirror.frgl.pw/deepin-cd": dial tcp: lookup mirror.frgl.pw on 127.0.0.1:53: no such host */
-a[href="https://mirror.frgl.pw/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.frgl.pw/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirror.frgl.pw/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.frgl.pw/deepin-cd msg: Get "https://mirror.frgl.pw/deepin-cd": dial tcp: lookup mirror.frgl.pw on 127.0.0.1:53: no such host */
-a[href="https://mirror.frgl.pw/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.edatel.net.co/deepin-cd/ msg: Get "http://mirror.edatel.net.co/deepin-cd/": dial tcp 200.35.32.3:80: i/o timeout */
-a[href="http://mirror.edatel.net.co/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.dotsrc.org/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirror.dotsrc.org/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://deepin.mirror.iodc.dk/releases/ msg: Get "http://deepin.mirror.iodc.dk/releases/": dial tcp: lookup deepin.mirror.iodc.dk on 127.0.0.1:53: no such host */
-a[href="http://deepin.mirror.iodc.dk/releases/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://linuxdeepin.skarta.net/release msg: Get "https://linuxdeepin.skarta.net/release": x509: certificate is valid for docs.skarta.net, docs.skytech.dk, gitlab.skytech.dk, gl.skytech.dk, grafana.skarta.net, grafana.skytech.dk, ip.skytech.dk, jenkins.skytech.dk, kibana.skytech.dk, minio.skytech.dk, skarta.net, skytech.dk, webmail.skytech.dk, wiki.skytech.dk, not linuxdeepin.skarta.net */
-a[href="http://linuxdeepin.skarta.net/release"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.cedia.org.ec/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirror.cedia.org.ec/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirrors.ircam.fr/pub/deepin/ msg: Unsupported protocol */
-a[href="ftp://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://ftp.fau.de/deepin/ msg: Unsupported protocol */
-a[href="ftp://ftp.fau.de/deepin/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/ msg: Unsupported protocol */
-a[href="ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror2.tuxinator.org/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirrors.opensource.is/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
-a[href="https://mirrors.opensource.is/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://kartolo.sby.datautama.net.id/deepin-cd/ msg: 404 Not Found */
-a[href="http://kartolo.sby.datautama.net.id/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftp.heanet.ie/pub/deepin-cd/ msg: 404 Not Found */
-a[href="https://ftp.heanet.ie/pub/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://ftp.riken.jp/Linux/deepin msg: Unsupported protocol */
-a[href="ftp://ftp.riken.jp/Linux/deepin"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
-a[href="https://ftp.tsukuba.wide.ad.jp/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://deepin.koyanet.lv/packages/ msg: 404 Not Found */
-a[href="http://deepin.koyanet.lv/packages/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://deepin-cd.mirror.liteserver.nl/ msg: Get "http://deepin-cd.mirror.liteserver.nl/": dial tcp: lookup deepin-cd.mirror.liteserver.nl on 127.0.0.1:53: no such host */
-a[href="http://deepin-cd.mirror.liteserver.nl/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://deepin-cd.mirror.liteserver.nl/ msg: Get "https://deepin-cd.mirror.liteserver.nl/": dial tcp: lookup deepin-cd.mirror.liteserver.nl on 127.0.0.1:53: no such host */
-a[href="https://deepin-cd.mirror.liteserver.nl/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://ftp.mirror.liteserver.nl/deepin-cd msg: Get "http://ftp.mirror.liteserver.nl/deepin-cd": dial tcp: lookup ftp.mirror.liteserver.nl on 127.0.0.1:53: no such host */
-a[href="http://ftp.mirror.liteserver.nl/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.liteserver.nl/deepin msg: 404 Not Found */
-a[href="https://mirror.liteserver.nl/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.nluug.nl/deepin-cd/ msg: 404 Not Found */
-a[href="https://ftp.nluug.nl/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirror.serverion.com/deepin-cd msg: Get "http://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:80: i/o timeout */
-a[href="http://mirror.serverion.com/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.serverion.com/deepin-cd msg: Get "https://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:443: i/o timeout */
-a[href="https://mirror.serverion.com/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.serverion.com/deepin-cd msg: Unsupported protocol */
-a[href="ftp://mirror.serverion.com/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.serverion.com/deepin-cd msg: Get "https://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:443: i/o timeout */
-a[href="https://mirror.serverion.com/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd msg: Unsupported protocol */
-a[href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.snt.utwente.nl/deepin-cd msg: 404 Not Found */
-a[href="https://ftp.snt.utwente.nl/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.dotsrc.org/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirrors.dotsrc.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Get "https://mirror.onet.pl/pub/mirrors/deepin-cd/": dial tcp 213.180.139.200:443: i/o timeout */
-a[href="https://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://piotrkosoft.net/pub/mirrors/deepin-cd/ msg: 503 Service Unavailable */
-a[href="http://piotrkosoft.net/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.piotrkosoft.net/pub/mirrors/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.piotrkosoft.net/pub/mirrors/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://rsync.piotrkosoft.net/mirrors/deepin/ msg: Get "https://rsync.piotrkosoft.net/mirrors/deepin/": dial tcp 77.55.211.95:443: connect: connection refused */
-a[href="https://rsync.piotrkosoft.net/mirrors/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://ftp.vectranet.pl/deepin-releases/ msg: Get "http://ftp.vectranet.pl/deepin-releases/": dial tcp 88.156.222.90:80: connect: connection refused */
-a[href="http://ftp.vectranet.pl/deepin-releases/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.vectranet.pl/deepin-releases/ msg: Unsupported protocol */
-a[href="ftp://ftp.vectranet.pl/deepin-releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.vectranet.pl/deepin-cd/ msg: Get "https://ftp.vectranet.pl/deepin-cd/": dial tcp 88.156.222.90:443: i/o timeout */
-a[href="https://ftp.vectranet.pl/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.up.pt/pub/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.truenetwork.ru/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror.truenetwork.ru/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.yandex.ru/mirrors/deepin/releases/ msg: Unsupported protocol */
-a[href="ftp://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://tux.rainside.sk/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://tux.rainside.sk/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://www.ftp.saix.net/linux/distributions/linux-deepin/deepin-cd/ msg: 404 Not Found */
-a[href="http://www.ftp.saix.net/linux/distributions/linux-deepin/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.saix.net/pub/linux/distributions/linux-deepin/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.saix.net/pub/linux/distributions/linux-deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: http://ftp.wa.co.za/pub/deepin/ msg: 404 Not Found */
-a[href="http://ftp.wa.co.za/pub/deepin/"] { padding: 3px; color: white; background-color: red; }
+a[href="http://ftp.wa.co.za/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.harukasan.org/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
+/* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
+a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Head "http://ftp.yzu.edu.tw/Linux/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup ftp.yzu.edu.tw: no such host */
+a[href="http://ftp.yzu.edu.tw/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: not found last modified */
+a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://linuxdeepin.skarta.net/release msg: 403 Forbidden */
+a[href="http://linuxdeepin.skarta.net/release"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://matojo.unizar.es/deepin-cd/ msg: 404 Not Found */
-a[href="http://matojo.unizar.es/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+a[href="http://matojo.unizar.es/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftpmirror1.infania.net/mirror/deepin/releases/ msg: Unsupported protocol */
-a[href="ftp://ftpmirror1.infania.net/mirror/deepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftpmirror1.infania.net/deepin msg: 404 Not Found */
-a[href="https://ftpmirror1.infania.net/deepin"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.lysator.liu.se/pub/deepin/releases msg: Unsupported protocol */
-a[href="ftp://ftp.lysator.liu.se/pub/deepin/releases"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.lysator.liu.se::deepin/releases msg: parse "https://ftp.lysator.liu.se::deepin/releases": invalid port ":deepin" after host */
-a[href="https://ftp.lysator.liu.se::deepin/releases"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.aarnet.edu.au/pub/deepin/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirror.aarnet.edu.au/pub/deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.portlane.com/pub/os/linux/deepin-cd/ msg: Get "http://ftp.portlane.com/pub/os/linux/deepin-cd/": dial tcp 80.67.0.22:80: i/o timeout */
-a[href="http://ftp.portlane.com/pub/os/linux/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.portlane.com/pub/os/linux/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://ftp.portlane.com/pub/os/linux/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirror.thaidns.co.th/deepin-cd msg: Get "http://mirror.thaidns.co.th/deepin-cd": dial tcp 202.183.192.173:80: i/o timeout */
-a[href="http://mirror.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.atlanta.delimiter.com/pub/deepin-cd/ msg: Head "http://mirror.atlanta.delimiter.com/pub/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.atlanta.delimiter.com/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.thaidns.co.th/deepin-cd msg: Get "https://mirror.thaidns.co.th/deepin-cd": dial tcp 202.183.192.173:443: i/o timeout */
-a[href="https://mirror.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.bit.edu.cn/deepin-cd msg: Head "http://mirror.bit.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp [2001:da8:204:1205::22]:80: connect: cannot assign requested address */
+a[href="http://mirror.bit.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.thaidns.co.th/deepin-cd msg: 404 Not Found */
-a[href="http://deepin.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.cedia.org.ec/deepin-cd msg: Head "http://mirror.cedia.org.ec/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.cedia.org.ec/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.thaidns.co.th/deepin-cd msg: Get "https://deepin.thaidns.co.th/deepin-cd": dial tcp 173.208.175.74:443: connect: no route to host */
-a[href="https://deepin.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.datamossa.io/deepin-cd msg: 404 Not Found */
+a[href="http://mirror.datamossa.io/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.dgn.net.tr/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirror.dgn.net.tr/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.dgn.net.tr/deepin-cd/ msg: Head "http://mirror.dgn.net.tr/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirror.dgn.net.tr: no such host */
+a[href="http://mirror.dgn.net.tr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.veriteknik.net.tr/deepin-cd/ msg: Get "http://mirror.veriteknik.net.tr/deepin-cd/": dial tcp 94.103.33.100:80: i/o timeout */
-a[href="http://mirror.veriteknik.net.tr/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.edatel.net.co/deepin-cd/ msg: Head "http://mirror.edatel.net.co/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.edatel.net.co/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://deepin.ip-connect.vn.ua/mirror/deepin/ msg: Unsupported protocol */
-a[href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: rsync://deepin.ip-connect.vn.ua/deepin/ msg: Unsupported protocol */
-a[href="rsync://deepin.ip-connect.vn.ua/deepin/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
-a[href="ftp://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
-a[href="ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: ftp://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
-a[href="ftp://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/ msg: Get "http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/": dial tcp 185.20.53.3:80: i/o timeout */
-a[href="http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.genesisadaptive.com/deepin-cd/ msg: Head "http://mirror.genesisadaptive.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.genesisadaptive.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://ftp.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: Unsupported protocol */
-a[href="ftp://ftp.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: http://mirrors.cicku.me/deepin-cd/ msg: Get "http://mirrors.cicku.me/deepin-cd/": dial tcp: lookup mirrors.cicku.me on 127.0.0.1:53: no such host */
-a[href="http://mirrors.cicku.me/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.cicku.me/deepin-cd/ msg: Get "https://mirrors.cicku.me/deepin-cd/": dial tcp: lookup mirrors.cicku.me on 127.0.0.1:53: no such host */
-a[href="https://mirrors.cicku.me/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.atlanta.delimiter.com/pub/deepin-cd/ msg: Get "http://mirror.atlanta.delimiter.com/pub/deepin-cd/": dial tcp 107.189.40.20:80: i/o timeout */
-a[href="http://mirror.atlanta.delimiter.com/pub/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.genesisadaptive.com/deepin-cd/ msg: Get "http://mirror.genesisadaptive.com/deepin-cd/": dial tcp 64.250.112.70:80: i/o timeout */
-a[href="http://mirror.genesisadaptive.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://www.gtlib.gatech.edu/pub/deepin-cd/ msg: 404 Not Found */
-a[href="http://www.gtlib.gatech.edu/pub/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.inode.at/data/deepin-cd/ msg: Head "http://mirror.inode.at/data/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.inode.at/data/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.jmu.edu/pub/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirror.jmu.edu/pub/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+a[href="http://mirror.jmu.edu/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://mirror.jmu.edu/pub/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirror.jmu.edu/pub/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.jmu.edu/deepin/ msg: 404 Not Found */
-a[href="https://mirror.jmu.edu/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirror.launtel.net.au/deepin/cd/ msg: Head "http://mirror.launtel.net.au/deepin/cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirror.launtel.net.au: no such host */
+a[href="http://mirror.launtel.net.au/deepin/cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: ftp://mirrors.kernel.org/deepin-cd/ msg: Unsupported protocol */
-a[href="ftp://mirrors.kernel.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
+/* url: http://mirror.librelabucm.org/deepin-cd/ msg: Head "http://mirror.librelabucm.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.metrocast.net/deepin-cd/ msg: 404 Not Found */
-a[href="http://mirror.metrocast.net/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+a[href="http://mirror.metrocast.net/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.redrock.team/deepin-cd/ msg: not found last modified */
+a[href="http://mirror.redrock.team/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/ msg: Head "http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirror.sax.uk.as61049.net: no such host */
+a[href="http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.sjc02.svwh.net/deepin-cd/ msg: Head "http://mirror.sjc02.svwh.net/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.sjc02.svwh.net/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.thaidns.co.th/deepin-cd msg: Head "http://mirror.thaidns.co.th/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ueb.edu.ec/deepin-cd/ msg: Head "http://mirror.ueb.edu.ec/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ufam.edu.br/deepin-cd msg: Head "http://mirror.ufam.edu.br/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.ufam.edu.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
+a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.veriteknik.net.tr/deepin-cd/ msg: Head "http://mirror.veriteknik.net.tr/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.veriteknik.net.tr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.zyrj.org/deepin-cdimage/ msg: Head "http://mirror.zyrj.org/deepin-cdimage/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirror.zyrj.org: no such host */
+a[href="http://mirror.zyrj.org/deepin-cdimage/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror1.sjc02.svwh.net/deepin-cd/ msg: Head "http://mirror1.sjc02.svwh.net/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror1.sjc02.svwh.net/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.cat.pdx.edu/deepin-cd msg: 404 Not Found */
-a[href="http://mirrors.cat.pdx.edu/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+a[href="http://mirrors.cat.pdx.edu/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.cicku.me/deepin-cd/ msg: Head "http://mirrors.cicku.me/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirrors.cicku.me: no such host */
+a[href="http://mirrors.cicku.me/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.cn99.com/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirrors.cn99.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.cqu.edu.cn/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirrors.cqu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.cqupt.edu.cn/deepin-cd/ msg: not found last modified */
+a[href="http://mirrors.cqupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.cug.edu.cn/deepin-cd/ msg: Head "http://mirrors.cug.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.cug.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hit4.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit4.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirrors.hit4.edu.cn: no such host */
+a[href="http://mirrors.hit4.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hit6.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit6.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirrors.hit6.edu.cn: no such host */
+a[href="http://mirrors.hit6.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hust.edu.cn/deepin-releases/ msg: Head "http://mirrors.hust.edu.cn/deepin-releases/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.hust.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hustunique.com/deepin-cd/ msg: Head "http://mirrors.hustunique.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 127.0.0.1:80: connect: connection refused */
+a[href="http://mirrors.hustunique.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.jlu.edu.cn/deepin-cd/ msg: Head "http://mirrors.jlu.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.jlu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.jstvu.edu.cn/deepin-cd/ msg: Head "http://mirrors.jstvu.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.jstvu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.linuxstory.org/deepin-cd/ msg: Head "http://mirrors.linuxstory.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirrors.linuxstory.org: no such host */
+a[href="http://mirrors.linuxstory.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.opencas.cn/deepin-cd msg: Head "http://mirrors.opencas.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp [2001:cc0:2020:4075::211]:80: connect: cannot assign requested address */
+a[href="http://mirrors.opencas.cn/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirrors.opensource.is/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.scie.in/deepin-cd/ msg: not found last modified */
+a[href="http://mirrors.scie.in/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.shu.edu.cn/deepin-cd msg: Head "http://mirrors.shu.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 202.121.199.235:80: connect: connection refused */
+a[href="http://mirrors.shu.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.sohu.com/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
+a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.xmu.edu.cn/deepin/deepin-cd msg: 404 Not Found */
+a[href="http://mirrors.xmu.edu.cn/deepin/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.yun-idc.com/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirrors.yun-idc.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://piotrkosoft.net/pub/mirrors/deepin-cd/ msg: Head "http://piotrkosoft.net/pub/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 77.55.211.95:80: connect: connection refused */
+a[href="http://piotrkosoft.net/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://rsync//mirrors.cat.pdx.edu/deepin msg: Head "http://rsync//mirrors.cat.pdx.edu/deepin/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup rsync: no such host */
+a[href="http://rsync//mirrors.cat.pdx.edu/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://www.ftp.saix.net/linux/distributions/linux-deepin/deepin-cd/ msg: 404 Not Found */
+a[href="http://www.ftp.saix.net/linux/distributions/linux-deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://www.gtlib.gatech.edu/pub/deepin-cd/ msg: Head "http://www.gtlib.gatech.edu/pub/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://www.gtlib.gatech.edu/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin-cd.mirror.liteserver.nl/ msg: Head "https://deepin-cd.mirror.liteserver.nl/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin-cd.mirror.liteserver.nl: no such host */
+a[href="https://deepin-cd.mirror.liteserver.nl/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin.ipacct.com/deepin-cd/ msg: Head "https://deepin.ipacct.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 195.85.215.207:443: connect: connection refused */
+a[href="https://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy: no such host */
+a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin.thaidns.co.th/deepin-cd msg: Head "https://deepin.thaidns.co.th/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://deepin.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
+a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.gwdg.de/pub/linux/linuxdeepin/ msg: 404 Not Found */
+a[href="https://ftp.gwdg.de/pub/linux/linuxdeepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 175.214.128.79:443: connect: connection refused */
+a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se::deepin/releases msg: parse "https://ftp.lysator.liu.se::deepin/releases/20.7/deepin-desktop-community-20.7-amd64.iso": invalid port ":deepin" after host */
+a[href="https://ftp.lysator.liu.se::deepin/releases"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.nluug.nl/deepin-cd/ msg: 404 Not Found */
+a[href="https://ftp.nluug.nl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.snt.utwente.nl/deepin-cd msg: 404 Not Found */
+a[href="https://ftp.snt.utwente.nl/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
+a[href="https://ftp.tsukuba.wide.ad.jp/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.ubuntu-tw.org/deepin/ msg: 404 Not Found */
+a[href="https://ftp.ubuntu-tw.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.vectranet.pl/deepin-cd/ msg: Head "https://ftp.vectranet.pl/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://ftp.vectranet.pl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.yzu.edu.tw/Linux/deepin/ msg: Head "https://ftp.yzu.edu.tw/Linux/deepin/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup ftp.yzu.edu.tw: no such host */
+a[href="https://ftp.yzu.edu.tw/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftpmirror1.infania.net/deepin msg: 404 Not Found */
+a[href="https://ftpmirror1.infania.net/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.datamossa.io/deepin-cd msg: 404 Not Found */
+a[href="https://mirror.datamossa.io/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.deepines.com/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirror.deepines.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.frgl.pw/deepin-cd msg: Head "https://mirror.frgl.pw/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": x509: certificate has expired or is not yet valid: current time 2022-11-22T18:03:53+08:00 is after 2022-09-18T12:00:00Z */
+a[href="https://mirror.frgl.pw/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.inode.at/mirror/deepin-cd/ msg: Head "https://mirror.inode.at/mirror/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://mirror.inode.at/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.jmu.edu/deepin/ msg: 404 Not Found */
+a[href="https://mirror.jmu.edu/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.launtel.net.au/deepin/cd/ msg: Head "https://mirror.launtel.net.au/deepin/cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirror.launtel.net.au: no such host */
+a[href="https://mirror.launtel.net.au/deepin/cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.librelabucm.org/deepin-cd/ msg: Head "https://mirror.librelabucm.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.liteserver.nl/deepin msg: 404 Not Found */
+a[href="https://mirror.liteserver.nl/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "https://mirror.onet.pl/pub/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.redrock.team/deepin-cd/ msg: not found last modified */
+a[href="https://mirror.redrock.team/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.thaidns.co.th/deepin-cd msg: Head "https://mirror.thaidns.co.th/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://mirror.thaidns.co.th/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
+a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cat.pdx.edu/deepin-cd msg: 404 Not Found */
-a[href="https://mirrors.cat.pdx.edu/deepin-cd"] { padding: 3px; color: white; background-color: red; }
+a[href="https://mirrors.cat.pdx.edu/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://rsync//mirrors.cat.pdx.edu/deepin msg: Get "http://rsync//mirrors.cat.pdx.edu/deepin": dial tcp: lookup rsync on 127.0.0.1:53: no such host */
-a[href="http://rsync//mirrors.cat.pdx.edu/deepin"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.cicku.me/deepin-cd/ msg: Head "https://mirrors.cicku.me/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup mirrors.cicku.me: no such host */
+a[href="https://mirrors.cicku.me/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.sjc02.svwh.net/deepin-cd/ msg: Get "http://mirror.sjc02.svwh.net/deepin-cd/": dial tcp 72.5.72.15:80: i/o timeout */
-a[href="http://mirror.sjc02.svwh.net/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.cloud.tencent.com/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirrors.cloud.tencent.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror1.sjc02.svwh.net/deepin-cd/ msg: Get "http://mirror1.sjc02.svwh.net/deepin-cd/": dial tcp 72.5.72.15:80: i/o timeout */
-a[href="http://mirror1.sjc02.svwh.net/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.geekpie.org/deepin-cd/ msg: 长度不一致 */
+a[href="https://mirrors.geekpie.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.freedif.org/Deepin/deepin-cd/ msg: Get "http://mirror.freedif.org/Deepin/deepin-cd/": dial tcp 113.161.52.138:80: i/o timeout */
-a[href="http://mirror.freedif.org/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.hustunique.com/deepin-cd/ msg: Head "https://mirrors.hustunique.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 127.0.0.1:443: connect: connection refused */
+a[href="https://mirrors.hustunique.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.ircam.fr/pub/deepin/ msg: 404 Not Found */
+a[href="https://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
+a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirrors.opensource.is/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.shu.edu.cn/deepin-cd msg: Head "https://mirrors.shu.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 202.121.199.235:443: connect: connection refused */
+a[href="https://mirrors.shu.edu.cn/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.skyshe.cn/deepin-cd/ msg: Head "https://mirrors.skyshe.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": x509: certificate is valid for xtom.de, *.xtom.de, not mirrors.skyshe.cn */
+a[href="https://mirrors.skyshe.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
+a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://rsync.piotrkosoft.net/mirrors/deepin/ msg: Head "https://rsync.piotrkosoft.net/mirrors/deepin/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 77.55.211.95:443: connect: connection refused */
+a[href="https://rsync.piotrkosoft.net/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://www.deepin.org/zh/mirrors/releases/deepin msg: 404 Not Found */
+a[href="https://www.deepin.org/zh/mirrors/releases/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://www.deepin.org/zh/mirrors/releases/deepin-cd msg: 404 Not Found */
+a[href="https://www.deepin.org/zh/mirrors/releases/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 

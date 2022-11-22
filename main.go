@@ -9,12 +9,14 @@ import (
 	"net/http"
 	"os"
 	"runtime"
+	"sort"
 	"strings"
 	"sync"
 	"time"
 
 	"github.com/88250/lute"
 	"github.com/PuerkitoBio/goquery"
+	"github.com/samber/lo"
 )
 
 var (
@@ -34,54 +36,54 @@ func main() {
 	flag.Parse()
 	switch {
 	case len(packagePATH) > 0:
-		checkMirror(sourceURL, packagePATH, checkFile)
+		links, err := getMarkdownLinks(packagePATH)
+		if err != nil {
+			log.Fatal(err)
+		}
+		checkMirror(sourceURL, checkFile, links)
 	case len(releasePATH) > 0:
-		checkMirror(sourceURL, releasePATH, checkFile)
+		links, err := getMarkdownLinks(releasePATH)
+		if err != nil {
+			log.Fatal(err)
+		}
+		checkMirror(sourceURL, checkFile, links)
 	default:
 		flag.PrintDefaults()
 	}
 }
 
-func newDoc(path string) (*goquery.Document, error) {
-	data, err := os.ReadFile(path)
+func getMarkdownLinks(mdPath string) ([]string, error) {
+	data, err := os.ReadFile(mdPath)
 	if err != nil {
 		return nil, err
 	}
 	html := lute.New().Md2HTML(string(data))
-	return goquery.NewDocumentFromReader(strings.NewReader(html))
-}
-
-// 检查软件镜像
-func checkMirror(source, path, checkFile string) {
-	doc, err := newDoc(path)
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(html))
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 	hrefList := make(map[string]struct{})
 	doc.Find("table").First().Find("a").Each(func(_ int, s *goquery.Selection) {
 		href := s.AttrOr("href", "")
 		hrefList[href] = struct{}{}
 	})
+	hrefs := lo.Keys(hrefList)
+	sort.Strings(hrefs)
+	return hrefs, nil
+}
 
-	// 生成css
-	errChan := make(chan [2]string)
-	defer close(errChan)
-	go func() {
-		for v := range errChan {
-			href, err := v[0], v[1]
-			fmt.Printf("/* url: %s msg: %s */\n", href, err)
-			fmt.Println(cssA(href, "white", "red"))
-			fmt.Println()
-		}
-	}()
+// 检查软件镜像
+func checkMirror(source, checkFile string, mirrors []string) {
+	var errStore sync.Map
+	// 获取源文件大小
 	sourceLength, _, err := head(strings.Trim(source, "/") + checkFile)
 	if err != nil {
 		log.Fatal(err)
 	}
-	// 检查
+	// 检查镜像文件是否等于源文件大小
 	var limitChan = make(chan struct{}, runtime.NumCPU())
 	var wg sync.WaitGroup
-	for href := range hrefList {
+	for _, href := range mirrors {
 		limitChan <- struct{}{}
 		wg.Add(1)
 		go func(href string) {
@@ -96,18 +98,29 @@ func checkMirror(source, path, checkFile string) {
 			mirrorLength, _, err := head(strings.Trim(href, "/") + checkFile)
 			if err != nil {
 				log.Println(href, "失败", err)
-				errChan <- [2]string{href, err.Error()}
+				errStore.Store(href, err.Error())
 				return
 			}
 			if mirrorLength != sourceLength {
 				log.Println(href, "失败", "长度不一致")
-				errChan <- [2]string{href, "长度不一致"}
+				errStore.Store(href, "长度不一致")
 				return
 			}
 			log.Println(href, "有效")
 		}(href)
 	}
 	wg.Wait()
+	// 标记有问题的镜像
+	for _, href := range mirrors {
+		v, ok := errStore.Load(href)
+		if !ok {
+			continue
+		}
+		err := v.(string)
+		fmt.Printf("/* url: %s msg: %s */\n", href, err)
+		fmt.Println(cssA(href, "white", "gray"))
+		fmt.Println()
+	}
 }
 
 // 发送HEAD请求
