@@ -5,6 +5,8 @@ on:
       - mirrors/**.md
       - .github/workflows/mirrors_mark.yml
   workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
 
 jobs:
   build:
