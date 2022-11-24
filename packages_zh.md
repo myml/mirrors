@@ -2,15 +2,13 @@
 title: 软件源
 description: 
 published: true
-date: 2022-11-23T02:43:13.892Z
+date: 2022-11-23T05:23:37.608Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
 ---
 
-<link rel="stylesheet" href="packages_zh_mark.css" />
-
-<link rel="stylesheet" href="/api/v1/public/docs/developer-center/mirrors/packages_zh_mark.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/myml/mirrors@master/packages_zh_mark.css" />
 
 
 ## 官方软件仓库
