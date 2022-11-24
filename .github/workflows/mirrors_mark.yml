@@ -1,9 +1,6 @@
 name: mirror check
 on:
   push:
-    paths:
-      - mirrors/**.md
-      - .github/workflows/mirrors_mark.yml
   workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"
@@ -16,8 +13,6 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: "^1.16.1"
-      - name: install
-        run: go install github.com/myml/mirrors@v0.0.10
       - name: package_zh
         run: |
           wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/01_deepin配套生态/02_deepin深入/00_镜像加速/软件源.md -O packages_zh.md
