@@ -1,11 +1,5 @@
-/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/InRelease": context deadline exceeded */
-a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.0x.sg/deepin/ msg: Head "http://mirror.0x.sg/deepin/dists/apricot/InRelease": context deadline exceeded */
-a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/InRelease": dial tcp: lookup mirror.dgn.net.tr: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -18,9 +12,6 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/InRelease": context deadline exceeded */
-a[href="https://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
