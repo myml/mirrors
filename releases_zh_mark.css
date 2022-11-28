@@ -1,3 +1,6 @@
+/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 91.236.251.14:80: connect: connection refused */
+a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -31,6 +34,9 @@ a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; backg
 /* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
 a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 91.236.251.14:443: connect: connection refused */
+a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy: no such host */
 a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -48,9 +54,6 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.deepines.com/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.deepines.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: Head "https://mirror.lzu.edu.cn/deepin-releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 202.201.2.130:443: i/o timeout */
-a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
