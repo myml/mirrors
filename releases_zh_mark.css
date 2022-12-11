@@ -28,6 +28,9 @@ a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; backg
 /* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
 a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy: no such host */
 a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; background-color: gray; }
 
