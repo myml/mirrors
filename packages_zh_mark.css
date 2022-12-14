@@ -13,13 +13,13 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirrors.sohu.com/deepin msg: 长度不一致 */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: 长度不一致 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.gtlib.gatech.edu/pub/deepin/ msg: 长度不一致 */
 a[href="http://www.gtlib.gatech.edu/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 长度不一致 */
