@@ -1,13 +1,10 @@
-/* url: http://deepin.mirror.garr.it/mirrors/deepin-cd/ msg: Head "http://deepin.mirror.garr.it/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 90.147.160.73:80: connect: connection refused */
-a[href="http://deepin.mirror.garr.it/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.sjtu.edu.cn/deepin/ msg: 404 Not Found */
+/* url: http://ftp.sjtu.edu.cn/deepin/ msg: Head "http://ftp.sjtu.edu.cn/deepin/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 202.38.97.230:80: i/o timeout */
 a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
@@ -21,6 +18,9 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": read tcp 10.1.0.96:44266->213.180.139.200:80: read: connection reset by peer */
+a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
@@ -37,7 +37,7 @@ a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-co
 /* url: https://ftp.gwdg.de/pub/linux/linuxdeepin/ msg: 404 Not Found */
 a[href="https://ftp.gwdg.de/pub/linux/linuxdeepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 175.214.128.79:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
