@@ -4,7 +4,7 @@ a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/InRelease": dial tcp: lookup mirror.dgn.net.tr: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/InRelease": read tcp 10.1.0.127:34318->213.180.139.200:80: read: connection reset by peer */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/InRelease": read tcp 10.1.0.166:42378->213.180.139.200:80: read: connection reset by peer */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 长度不一致 */
@@ -13,6 +13,6 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
