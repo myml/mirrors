@@ -1,9 +1,6 @@
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/ msg: Head "http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
-a[href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -22,7 +19,7 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": read tcp 10.1.0.86:36928->213.180.139.200:80: read: connection reset by peer */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
