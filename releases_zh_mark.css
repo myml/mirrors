@@ -43,7 +43,7 @@ a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.deepines.com/deepin-cd/ msg: 404 Not Found */
+/* url: https://mirror.deepines.com/deepin-cd/ msg: 503 Service Unavailable */
 a[href="https://mirror.deepines.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
