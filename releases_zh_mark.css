@@ -1,7 +1,7 @@
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 118.38.208.102:80: i/o timeout */
+/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.sjtu.edu.cn/deepin/ msg: 404 Not Found */
@@ -10,7 +10,7 @@ a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 67.227.226.241:80: i/o timeout */
+/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: not found last modified */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
@@ -21,9 +21,6 @@ a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; back
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: Head "http://mirror.man.bytemark.co.uk/linuxdeepin/releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 80.68.83.134:80: connect: connection refused */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
-a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
 a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
