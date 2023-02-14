@@ -1,6 +1,3 @@
-/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/InRelease": dial tcp 91.236.251.35:80: i/o timeout */
-a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -12,9 +9,6 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/InRelease": dial tcp 91.236.251.35:443: i/o timeout */
-a[href="https://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
