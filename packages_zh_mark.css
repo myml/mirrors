@@ -1,27 +1,21 @@
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
-a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.cedia.org.ec/deepin msg: 500 Internal Server Error */
-a[href="http://mirror.cedia.org.ec/deepin"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/InRelease": dial tcp: lookup mirror.dgn.net.tr: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.ueb.edu.ec/deepin/ msg: 500 Internal Server Error */
-a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": x509: certificate has expired or is not yet valid: current time 2023-02-19T02:44:13Z is after 2023-02-14T15:19:36Z */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": x509: certificate has expired or is not yet valid: current time 2023-02-20T02:46:32Z is after 2023-02-14T15:19:36Z */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://sft.if.usp.br/deepin/ msg: Head "http://sft.if.usp.br/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://sft.if.usp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.deepines.com/deepin/ msg: 404 Not Found */
+a[href="https://mirror.deepines.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
