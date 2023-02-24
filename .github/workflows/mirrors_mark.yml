@@ -15,13 +15,13 @@ jobs:
           go-version: "^1.16.1"
       - name: package_zh
         run: |
-          wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/01_deepin配套生态/02_deepin深入/00_镜像加速/软件源.md -O packages_zh.md
+          wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/05_HOW-TO/08_镜像加速/软件源.md -O packages_zh.md
           go run . -source https://community-packages.deepin.com/deepin/ -packages_path packages_zh.md -check_file /dists/apricot/InRelease > packages_zh_mark.css
       # - name: package_en
       #   run: mirrors -source https://community-packages.deepin.com/deepin/ -packages_path mirrors/packages_en.md -check_file /dists/apricot/InRelease > mirrors/packages_en_mark.css
       - name: release_zh
         run: |
-          wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/01_deepin配套生态/02_deepin深入/00_镜像加速/镜像源.md -O releases_zh.md
+          wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/05_HOW-TO/08_镜像加速/镜像源.md -O releases_zh.md
           go run . -source https://mirrors.aliyun.com/deepin-cd/ -releases_path releases_zh.md -check_file /20.7/deepin-desktop-community-20.7-amd64.iso > releases_zh_mark.css
       # - name: release_en
       #   run: mirrors -source https://mirrors.aliyun.com/deepin-cd/ -releases_path mirrors/releases_en.md -check_file /20.7/deepin-desktop-community-20.7-amd64.iso > mirrors/releases_en_mark.css
