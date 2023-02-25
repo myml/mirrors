@@ -13,9 +13,9 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": dial tcp 212.110.163.13:80: connect: connection refused */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": x509: certificate has expired or is not yet valid: current time 2023-02-24T02:42:55Z is after 2023-02-14T15:19:36Z */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
