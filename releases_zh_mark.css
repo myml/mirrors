@@ -31,6 +31,9 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 /* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
 a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
+a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy: no such host */
 a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -40,7 +43,7 @@ a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-co
 /* url: https://ftp.gwdg.de/pub/linux/linuxdeepin/ msg: 404 Not Found */
 a[href="https://ftp.gwdg.de/pub/linux/linuxdeepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
@@ -60,6 +63,9 @@ a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; backgr
 
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
+a[href="https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://www.deepin.org/zh/mirrors/releases/deepin msg: 404 Not Found */
 a[href="https://www.deepin.org/zh/mirrors/releases/deepin"] { padding: 3px; color: white; background-color: gray; }
