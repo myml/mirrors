@@ -52,6 +52,9 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.deepines.com/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.deepines.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirror.truenetwork.ru/deepin-cd/ msg: Head "https://mirror.truenetwork.ru/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="https://mirror.truenetwork.ru/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
