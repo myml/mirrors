@@ -22,6 +22,3 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/InRelease": context deadline exceeded */
-a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
