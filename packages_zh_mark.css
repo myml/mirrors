@@ -1,14 +1,29 @@
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.0x.sg/deepin/ msg: 长度不一致 */
+a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.anigil.com/deepin/ msg: 长度不一致 */
+a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.cedia.org.ec/deepin msg: 长度不一致 */
+a[href="http://mirror.cedia.org.ec/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/InRelease": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ueb.edu.ec/deepin/ msg: 长度不一致 */
+a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.unesp.br/deepin/ msg: 长度不一致 */
+a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": dial tcp 212.110.163.13:80: connect: connection refused */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -19,6 +34,9 @@ a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.anigil.com/deepin/ msg: 长度不一致 */
+a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
