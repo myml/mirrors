@@ -31,9 +31,12 @@ a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 长度不一致 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.lzu.edu.cn/deepin/ msg: Head "https://mirror.lzu.edu.cn/deepin/dists/apricot/InRelease": context deadline exceeded */
+a[href="https://mirror.lzu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
