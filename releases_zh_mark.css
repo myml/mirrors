@@ -25,8 +25,14 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; col
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.unesp.br/deepin-cd msg: Head "http://mirror.unesp.br/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 212.110.163.13:80: connect: connection refused */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.aliyun.com/deepin-cd msg: Head "http://mirrors.aliyun.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.aliyun.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
 a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -48,9 +54,6 @@ a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: Head "https://mirror.lzu.edu.cn/deepin-releases/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
-a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }

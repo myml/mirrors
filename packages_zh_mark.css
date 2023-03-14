@@ -19,7 +19,7 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.ueb.edu.ec/deepin/ msg: 长度不一致 */
 a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.unesp.br/deepin/ msg: 长度不一致 */
+/* url: http://mirror.unesp.br/deepin/ msg: Head "http://mirror.unesp.br/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": dial tcp 212.110.163.13:80: connect: connection refused */
@@ -36,7 +36,4 @@ a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgr
 
 /* url: https://mirror.anigil.com/deepin/ msg: 长度不一致 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.lzu.edu.cn/deepin/ msg: Head "https://mirror.lzu.edu.cn/deepin/dists/apricot/InRelease": context deadline exceeded */
-a[href="https://mirror.lzu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
