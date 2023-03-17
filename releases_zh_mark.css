@@ -1,7 +1,7 @@
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.sjtu.edu.cn/deepin/ msg: 404 Not Found */
@@ -51,6 +51,9 @@ a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.deepines.com/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirror.deepines.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
