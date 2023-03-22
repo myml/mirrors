@@ -25,7 +25,7 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; col
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.unesp.br/deepin-cd msg: Head "http://mirror.unesp.br/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 212.110.163.13:80: connect: connection refused */
