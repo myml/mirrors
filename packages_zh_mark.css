@@ -1,4 +1,4 @@
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
