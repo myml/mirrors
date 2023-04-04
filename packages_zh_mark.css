@@ -1,4 +1,7 @@
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/InRelease": context deadline exceeded */
+a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
@@ -25,6 +28,6 @@ a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 175.214.128.79:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
