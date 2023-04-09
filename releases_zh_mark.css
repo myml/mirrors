@@ -46,7 +46,7 @@ a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-co
 /* url: https://ftp.gwdg.de/pub/linux/linuxdeepin/ msg: 404 Not Found */
 a[href="https://ftp.gwdg.de/pub/linux/linuxdeepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 175.214.128.79:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
@@ -54,6 +54,9 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.zetup.net/deepin-cd msg: Head "https://mirror.zetup.net/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-09T02:26:50Z is after 2023-04-08T12:52:08Z */
+a[href="https://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.ircam.fr/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
