@@ -1,5 +1,11 @@
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp1.nluug.nl/os/Linux/distr/deepin/ msg: Head "http://ftp1.nluug.nl/os/Linux/distr/deepin/dists/apricot/InRelease": context deadline exceeded */
+a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp2.nluug.nl/os/Linux/distr/deepin/ msg: Head "http://ftp2.nluug.nl/os/Linux/distr/deepin/dists/apricot/InRelease": context deadline exceeded */
+a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -13,13 +19,16 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: 长度不一致 */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.truenetwork.ru/deepin/ msg: Head "http://mirror.truenetwork.ru/deepin/dists/apricot/InRelease": dial tcp 94.247.111.11:80: i/o timeout */
+a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": dial tcp 212.110.163.13:80: connect: connection refused */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: 长度不一致 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
@@ -28,6 +37,9 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.zetup.net/deepin msg: Head "https://mirror.zetup.net/deepin/dists/apricot/InRelease": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-10T02:25:15Z is after 2023-04-08T12:52:08Z */
+/* url: https://mirror.truenetwork.ru/deepin/ msg: Head "https://mirror.truenetwork.ru/deepin/dists/apricot/InRelease": context deadline exceeded */
+a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.zetup.net/deepin msg: Head "https://mirror.zetup.net/deepin/dists/apricot/InRelease": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-11T02:27:18Z is after 2023-04-08T12:52:08Z */
 a[href="https://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
