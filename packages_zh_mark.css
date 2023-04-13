@@ -19,15 +19,12 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": dial tcp 212.110.163.13:80: connect: connection refused */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: 长度不一致 */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.zetup.net/deepin msg: Head "https://mirror.zetup.net/deepin/dists/apricot/InRelease": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-12T02:27:01Z is after 2023-04-08T12:52:08Z */
-a[href="https://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
