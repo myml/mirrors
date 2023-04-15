@@ -61,7 +61,7 @@ a[href="https://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; bac
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
 a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: Head "https://mirrors.scau.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-14T02:26:32Z is after 2023-04-10T03:14:17Z */
+/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: Head "https://mirrors.scau.edu.cn/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-04-15T02:27:18Z is after 2023-04-10T03:14:17Z */
 a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
