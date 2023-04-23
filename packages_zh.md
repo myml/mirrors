@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2023-02-24T02:18:24.845Z
+date: 2023-04-23T02:28:58.449Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -112,7 +112,7 @@ dateCreated: 2022-05-08T13:15:32.518Z
       <td></td>
     </tr>
     <tr>
-      <td><strong>北京外国语大学</strong></td>
+      <td>北京外国语大学</td>
       <td><a href="http://mirrors.bfsu.edu.cn/deepin/">http</a></td>
       <td></td>
       <td></td>
@@ -140,6 +140,13 @@ dateCreated: 2022-05-08T13:15:32.518Z
       <td><a href="http://mirrors.hit.edu.cn/deepin/">http</a></td>
       <td><a href="http://mirrors4.hit.edu.cn/deepin">httpv4</a></td>
       <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td> 吉林大学 </td>
+      <td><a href="http://mirrors.jlu.edu.cn/deepin/">http</a></td>
+      <td><a href="https://mirrors.jlu.edu.cn/deepin/">https</a></td>
       <td></td>
       <td></td>
     </tr>
@@ -856,5 +863,5 @@ dateCreated: 2022-05-08T13:15:32.518Z
 - 我们建议您优先同步深度操作系统的软件仓库，然后同步深度操作系统的 ISO 仓库；
 - 请您不要在深度操作系统镜像源相关的目录中存放其他文件（例如非官方的软件包），以避免造成误会；
 - 如果您有任何建议和意见，请反馈至[support@deepin.com](mailto:support@deepin.com)。
-- 可以到 [wiki:镜像源](https://wiki.deepin.org/zh/软件源) 添加或提交仓库
+- 可以到 [wiki:软件源](https://wiki.deepin.org/zh/软件源) 添加或提交仓库
 - 标记灰色的仓库是检查出存在问题的仓库，我们会进行处理，请尽量不要使用。

@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2023-02-24T02:15:15.923Z
+date: 2023-04-23T02:24:01.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -102,8 +102,8 @@ dateCreated: 2022-05-08T13:15:59.655Z
     </tr>
     <tr>
       <td>中国科学技术大学</td>
-      <td><a href="http://mirrors.ustc.edu.cn/deepin-cd/">http</a></td>
-      <td></td>
+      <td><a href="http://mirrors.ustc.edu.cn/deepin-cd/releases/">http</a></td>
+      <td><a href="https://mirrors.ustc.edu.cn/deepin-cd/releases/">https</a></td>
       <td></td>
       <td></td>
     </tr>
@@ -154,6 +154,12 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td><a href="http://mirrors.nju.edu.cn/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.nju.edu.cn/deepin-cd/">https</a></td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td> 吉林大学 </td>
+      <td><a href="http://mirrors.jlu.edu.cn/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.jlu.edu.cn/deepin-cd/">https</a></td>
       <td></td>
     </tr>
     <tr>
@@ -749,7 +755,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
 
 # 如何提供一个镜像源
 
-| | 同步命令                                                                 | 所需大小 |
+| 仓库 | 同步命令                                                                 | 所需大小 |
 | --- | ------------------------------------------------------------------------ | -------- |
 | 软件仓库 | rsync -av --delete-after rsync.deepin.com::deepin/ /var/www/deepin/      | 400GB    |
 | ISO仓库 | rsync -av --delete-after rsync.deepin.com::releases/ /var/www/deepin-cd/ | 60GB     |

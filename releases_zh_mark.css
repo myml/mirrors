@@ -1,6 +1,3 @@
-/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 91.236.251.34:80: connect: connection refused */
-a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -37,14 +34,11 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.ustc.edu.cn/deepin-cd/ msg: not found last modified */
-a[href="http://mirrors.ustc.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://mirrors.ustc.edu.cn/deepin-cd/releases/ msg: not found last modified */
+a[href="http://mirrors.ustc.edu.cn/deepin-cd/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
-a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "https://deepin.ams-01.rexum.space/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="https://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -78,6 +72,9 @@ a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; b
 
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.ustc.edu.cn/deepin-cd/releases/ msg: not found last modified */
+a[href="https://mirrors.ustc.edu.cn/deepin-cd/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
