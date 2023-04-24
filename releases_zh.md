@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2023-04-23T02:24:01.889Z
+date: 2023-04-23T05:36:26.848Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -157,9 +157,17 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
-      <td> 吉林大学 </td>
+      <td>吉林大学</td>
       <td><a href="http://mirrors.jlu.edu.cn/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.jlu.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>哈尔滨工业大学</td>
+      <td><a href="http://mirrors.hit.edu.cn/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.hit.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
