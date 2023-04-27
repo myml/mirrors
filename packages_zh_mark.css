@@ -1,7 +1,7 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
@@ -19,10 +19,7 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.tuna.tsinghua.edu.cn/deepin/ msg: Head "http://mirrors.tuna.tsinghua.edu.cn/deepin/dists/apricot/InRelease": context deadline exceeded */
-a[href="http://mirrors.tuna.tsinghua.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "http://repo.frcuba.cu/deepin/dists/apricot/InRelease": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: 长度不一致 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
@@ -31,9 +28,6 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/InRelease": context deadline exceeded */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/InRelease": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/InRelease": context deadline exceeded */
-a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
