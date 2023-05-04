@@ -1,6 +1,9 @@
 /* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
 a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://deepin.ipacct.com/deepin-cd/ msg: Head "http://deepin.ipacct.com/deepin-cd/20.7/deepin-desktop-community-20.7-amd64.iso": dial tcp 195.85.215.207:80: i/o timeout */
+a[href="http://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -73,7 +76,7 @@ a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; b
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.ustc.edu.cn/deepin-cd/releases/ msg: Head "https://mirrors.ustc.edu.cn/deepin-cd/releases/20.7/deepin-desktop-community-20.7-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.ustc.edu.cn/deepin-cd/releases/ msg: not found last modified */
 a[href="https://mirrors.ustc.edu.cn/deepin-cd/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
