@@ -132,7 +132,7 @@ func head(url string) (ContentLength int64, LastModified *time.Time, err error) 
 	ctx, cancel := context.WithTimeout(context.Background(), Timeout)
 	defer cancel()
 	req = req.WithContext(ctx)
-	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36")
+	req.Header.Set("User-Agent", "curl/7.79.1")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return 0, nil, err
