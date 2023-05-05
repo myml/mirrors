@@ -27,29 +27,21 @@ var (
 var Timeout = time.Second * 10
 
 func main() {
-	var sourceURL, packagePATH, releasePATH, checkFile string
-	flag.StringVar(&sourceURL, "source", "", "source url")
-	flag.StringVar(&packagePATH, "packages_path", "", "package mirrors markdown file path")
-	flag.StringVar(&releasePATH, "releases_path", "", "release mirrors markdown file path")
-	flag.StringVar(&checkFile, "check_file", "", "check file path")
+	var sourceURL, mirrorsFile, checkFile string
+	flag.StringVar(&sourceURL, "source", "", "源站")
+	flag.StringVar(&mirrorsFile, "mirrors", "", "镜像列表文件，包含镜像列表的markdown格式文件")
+	flag.StringVar(&checkFile, "checkpoint", "", "检查点文件，比较源站和镜像站该文件是否相同")
 	flag.DurationVar(&Timeout, "timeout", Timeout, "request timeout")
 	flag.Parse()
-	switch {
-	case len(packagePATH) > 0:
-		links, err := getMarkdownLinks(packagePATH)
-		if err != nil {
-			log.Fatal(err)
-		}
-		checkMirror(sourceURL, checkFile, links)
-	case len(releasePATH) > 0:
-		links, err := getMarkdownLinks(releasePATH)
-		if err != nil {
-			log.Fatal(err)
-		}
-		checkMirror(sourceURL, checkFile, links)
-	default:
+	if len(sourceURL) == 0 || len(mirrorsFile) == 0 || len(checkFile) == 0 {
 		flag.PrintDefaults()
+		return
 	}
+	links, err := getMarkdownLinks(mirrorsFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	checkMirror(sourceURL, checkFile, links)
 }
 
 func getMarkdownLinks(mdPath string) ([]string, error) {
@@ -76,7 +68,7 @@ func getMarkdownLinks(mdPath string) ([]string, error) {
 func checkMirror(source, checkFile string, mirrors []string) {
 	var errStore sync.Map
 	// 获取源文件大小
-	sourceLength, _, err := head(strings.Trim(source, "/") + checkFile)
+	sourceLength, err := head(strings.Trim(source, "/") + checkFile)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -95,15 +87,15 @@ func checkMirror(source, checkFile string, mirrors []string) {
 				log.Println(href, "不支持")
 				return
 			}
-			mirrorLength, _, err := head(strings.Trim(href, "/") + checkFile)
+			mirrorLength, err := head(strings.Trim(href, "/") + checkFile)
 			if err != nil {
 				log.Println(href, "失败", err)
 				errStore.Store(href, err.Error())
 				return
 			}
 			if mirrorLength != sourceLength {
-				log.Println(href, "失败", "长度不一致")
-				errStore.Store(href, "长度不一致")
+				log.Println(href, "失败", "文件过期")
+				errStore.Store(href, "文件过期")
 				return
 			}
 			log.Println(href, "有效")
@@ -124,10 +116,10 @@ func checkMirror(source, checkFile string, mirrors []string) {
 }
 
 // 发送HEAD请求
-func head(url string) (ContentLength int64, LastModified *time.Time, err error) {
+func head(url string) (ContentLength int64, err error) {
 	req, err := http.NewRequest(http.MethodHead, url, nil)
 	if err != nil {
-		return 0, nil, err
+		return 0, err
 	}
 	ctx, cancel := context.WithTimeout(context.Background(), Timeout)
 	defer cancel()
@@ -135,22 +127,13 @@ func head(url string) (ContentLength int64, LastModified *time.Time, err error) 
 	req.Header.Set("User-Agent", "curl/7.79.1")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return 0, nil, err
+		return 0, err
 	}
 	resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return 0, nil, errors.New(resp.Status)
+		return 0, errors.New(resp.Status)
 	}
-	contentLength := resp.ContentLength
-	lastModifiedStr := resp.Header.Get("Last-Modified")
-	if len(lastModifiedStr) == 0 {
-		return 0, nil, ErrNotFoundLastModified
-	}
-	t, err := time.Parse(http.TimeFormat, lastModifiedStr)
-	if err != nil {
-		return 0, nil, err
-	}
-	return contentLength, &t, nil
+	return resp.ContentLength, nil
 }
 
 // 生成css标记
