@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2023-04-23T05:36:26.848Z
+date: 2023-05-05T06:24:52.806Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -123,7 +123,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
     </tr>
     <tr>
       <td>上海交通大学</td>
-      <td><a href="http://ftp.sjtu.edu.cn/deepin/">http</a></td>
+      <td><a href="http://ftp.sjtu.edu.cn/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.sjtu.edu.cn/deepin-cd/">ftp</a></td>
       <td></td>
       <td></td>
@@ -157,6 +157,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
+      <!-- email: mirrors at jlu dot edu dot cn -->
       <td>吉林大学</td>
       <td><a href="http://mirrors.jlu.edu.cn/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.jlu.edu.cn/deepin-cd/">https</a></td>
@@ -164,6 +165,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
+      <!-- url: https://github.com/hitlug/issues -->
       <td>哈尔滨工业大学</td>
       <td><a href="http://mirrors.hit.edu.cn/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.hit.edu.cn/deepin-cd/">https</a></td>
