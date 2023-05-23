@@ -40,10 +40,7 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
