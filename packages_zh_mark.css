@@ -37,6 +37,9 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp 51.15.13.170:443: connect: connection refused */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://ftp.fau.de/deepin/ msg: Head "https://ftp.fau.de/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-06-11T02:58:31Z is after 2023-06-10T23:59:59Z */
+a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
