@@ -4,13 +4,13 @@ a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: whi
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: 文件过期 */
+/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: 403 Forbidden */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
@@ -34,7 +34,7 @@ a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: Head "http://mirrors.njupt.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
