@@ -4,6 +4,9 @@ a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white;
 /* url: http://ftp.harukasan.org/deepin/ msg: 404 Not Found */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.0x.sg/deepin/ msg: 文件过期 */
+a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -18,6 +21,9 @@ a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; backgro
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirroronet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.59:45840->213.180.138.90:80: read: connection reset by peer */
+a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ueb.edu.ec/deepin/ msg: 文件过期 */
 a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -42,4 +48,7 @@ a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgr
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.xtom.com/deepin/ msg: 文件过期 */
+a[href="https://mirrors.xtom.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
