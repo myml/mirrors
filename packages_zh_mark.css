@@ -1,8 +1,11 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: 503 Service Temporarily Unavailable */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:80: i/o timeout */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages msg: Head "http://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -39,6 +42,9 @@ a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white
 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
