@@ -1,7 +1,7 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.38:80: connect: connection refused */
+/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 194.5.96.10:80: connect: connection refused */
 a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
@@ -40,18 +40,12 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.35:443: connect: connection refused */
+/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.14:443: connect: connection refused */
 a[href="https://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
