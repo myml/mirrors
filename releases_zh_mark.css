@@ -1,4 +1,4 @@
-/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 91.236.251.14:80: connect: connection refused */
+/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 91.236.251.38:80: connect: connection refused */
 a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
@@ -37,7 +37,7 @@ a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: Head "http://mirrors.njupt.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
@@ -63,6 +63,9 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.ircam.fr/pub/deepin-cd/ msg: Head "https://mirrors.ircam.fr/pub/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": connection error: PROTOCOL_ERROR */
+a[href="https://mirrors.ircam.fr/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
 a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
