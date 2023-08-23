@@ -1,8 +1,47 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://deepin.c3sl.ufpr.br/deepin/ msg: 404 Not Found */
+a[href="http://deepin.c3sl.ufpr.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.14:80: connect: connection refused */
+a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://deepin.mirror.garr.it/mirrors/deepin/ msg: 404 Not Found */
+a[href="http://deepin.mirror.garr.it/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.acc.umu.se/mirror/linuxdeepin/packages/ msg: 404 Not Found */
+a[href="http://ftp.acc.umu.se/mirror/linuxdeepin/packages/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.cc.uoc.gr/mirrors/linux/deepin/packages/ msg: 404 Not Found */
+a[href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.fau.de/deepin/ msg: 404 Not Found */
+a[href="http://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.gwdg.de/pub/linux/linuxdeepin/deepin/ msg: 404 Not Found */
+a[href="http://ftp.gwdg.de/pub/linux/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: 404 Not Found */
+a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages msg: 404 Not Found */
+a[href="http://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.sjtu.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.tsukuba.wide.ad.jp/Linux/deepin/ msg: 404 Not Found */
+a[href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.uni-erlangen.de/deepin/ msg: 404 Not Found */
+a[href="http://ftp.uni-erlangen.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.alpix.eu/deepin/ msg: 404 Not Found */
+a[href="http://mirror.alpix.eu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -13,8 +52,17 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.dotsrc.org/deepin msg: Head "http://mirror.dotsrc.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.dotsrc.org/deepin"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.math.princeton.edu/pub/deepin/ msg: 404 Not Found */
+a[href="http://mirror.math.princeton.edu/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
+a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -22,8 +70,50 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
+a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.aliyun.com/deepin msg: 404 Not Found */
+a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.dotsrc.org/deepin/ msg: Head "http://mirrors.dotsrc.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.dotsrc.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hit.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.ircam.fr/pub/deepin/ msg: 403 Forbidden */
+a[href="http://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.jlu.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://mirrors.jlu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.kernel.org/deepin/ msg: 404 Not Found */
+a[href="http://mirrors.kernel.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.nju.edu.cn/deepin/ msg: Head "http://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.sohu.com/deepin msg: 404 Not Found */
+a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.ustc.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://mirrors.ustc.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.zju.edu.cn/deepin/ msg: 404 Not Found */
+a[href="http://mirrors.zju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors4.hit.edu.cn/deepin msg: 404 Not Found */
+a[href="http://mirrors4.hit.edu.cn/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://quantum-mirror.hu/mirrors/pub/deepin/ msg: 404 Not Found */
+a[href="http://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://sft.if.usp.br/deepin/ msg: 404 Not Found */
+a[href="http://sft.if.usp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -31,12 +121,51 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://deepin.c3sl.ufpr.br/deepin/ msg: 404 Not Found */
+a[href="https://deepin.c3sl.ufpr.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin.ip-connect.vn.ua/ msg: Head "https://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.35:443: connect: connection refused */
+a[href="https://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
+a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.gwdg.de/pub/linux/linuxdeepin/deepin msg: 404 Not Found */
+a[href="https://ftp.gwdg.de/pub/linux/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages msg: 404 Not Found */
+a[href="https://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.alpix.eu/deepin/ msg: 404 Not Found */
+a[href="https://mirror.alpix.eu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
+a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.huaweicloud.com/deepin/ msg: 404 Not Found */
+a[href="https://mirrors.huaweicloud.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.ircam.fr/pub/deepin/ msg: 403 Forbidden */
+a[href="https://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.jlu.edu.cn/deepin/ msg: 404 Not Found */
+a[href="https://mirrors.jlu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
+a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://quantum-mirror.hu/mirrors/pub/deepin/ msg: 404 Not Found */
+a[href="https://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
