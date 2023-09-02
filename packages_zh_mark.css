@@ -1,19 +1,13 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.ipacct.com/deepin/ msg: 文件过期 */
-a[href="http://deepin.ipacct.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://deepin.mirror.garr.it/mirrors/deepin/ msg: 404 Not Found */
-a[href="http://deepin.mirror.garr.it/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://deepin.mirror.globo.tech/ msg: 文件过期 */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.belnet.be/mirror/deepin/ msg: 文件过期 */
 a[href="http://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.nluug.nl/os/Linux/distr/deepin/ msg: 文件过期 */
@@ -46,7 +40,7 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.ufro.cl/deepin/ msg: Head "http://mirror.ufro.cl/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
@@ -70,14 +64,8 @@ a[href="http://mirrors.bfsu.edu.cn/deepin/"] { padding: 3px; color: white; backg
 /* url: http://mirrors.tuna.tsinghua.edu.cn/deepin/ msg: 文件过期 */
 a[href="http://mirrors.tuna.tsinghua.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://quantum-mirror.hu/mirrors/pub/deepin/ msg: 404 Not Found */
-a[href="http://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://sft.if.usp.br/deepin/ msg: 404 Not Found */
-a[href="http://sft.if.usp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://tux.rainside.sk/deepin/ msg: 文件过期 */
 a[href="http://tux.rainside.sk/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -94,7 +82,7 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: 文件过期 */
@@ -111,7 +99,4 @@ a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://quantum-mirror.hu/mirrors/pub/deepin/ msg: 404 Not Found */
-a[href="https://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
