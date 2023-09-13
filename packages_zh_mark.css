@@ -7,9 +7,6 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -37,9 +34,6 @@ a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; bac
 /* url: http://mirrors.aliyun.com/deepin msg: 404 Not Found */
 a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.bfsu.edu.cn/deepin/ msg: 文件过期 */
-a[href="http://mirrors.bfsu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -52,9 +46,6 @@ a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: https://mirror.librelabucm.org/deepin/ msg: 文件过期 */
 a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -66,4 +57,7 @@ a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; ba
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
