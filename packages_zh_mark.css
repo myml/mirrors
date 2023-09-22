@@ -7,14 +7,11 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.belnet.be/mirror/deepin/ msg: 文件过期 */
 a[href="http://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.cc.uoc.gr/mirrors/linux/deepin/packages/ msg: 文件过期 */
-a[href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.0x.sg/deepin/ msg: 文件过期 */
-a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages msg: Head "http://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -43,11 +40,8 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; c
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.163.com/deepin/ msg: 文件过期 */
-a[href="http://mirrors.163.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirrors.nju.edu.cn/deepin/ msg: 文件过期 */
-a[href="http://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://mirrors.zju.edu.cn/deepin/ msg: Head "http://mirrors.zju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.185:53288->210.32.159.60:80: read: connection reset by peer */
+a[href="http://mirrors.zju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -58,8 +52,11 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.deepines.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.deepines.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -75,13 +72,4 @@ a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; ba
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.huaweicloud.com/deepin/ msg: Head "https://mirrors.huaweicloud.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://mirrors.huaweicloud.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.nju.edu.cn/deepin/ msg: 文件过期 */
-a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.xtom.com/deepin/ msg: 文件过期 */
-a[href="https://mirrors.xtom.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
