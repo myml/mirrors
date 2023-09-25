@@ -4,10 +4,7 @@ a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white;
 /* url: http://deepin.mirror.globo.tech/ msg: 文件过期 */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.belnet.be/mirror/deepin/ msg: 文件过期 */
-a[href="http://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:80: i/o timeout */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
@@ -37,7 +34,7 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; c
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.zju.edu.cn/deepin/ msg: Head "http://mirrors.zju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.4:48396->210.32.159.60:80: read: connection reset by peer */
+/* url: http://mirrors.zju.edu.cn/deepin/ msg: Head "http://mirrors.zju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.14:33642->210.32.159.60:80: read: connection reset by peer */
 a[href="http://mirrors.zju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
