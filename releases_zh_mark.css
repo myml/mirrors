@@ -34,7 +34,7 @@ a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: Head "http://mirrors.njupt.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.zju.edu.cn/deepin-cd/ msg: Head "http://mirrors.zju.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 210.32.159.60:80: connect: connection refused */
