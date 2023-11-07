@@ -1,14 +1,11 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.mirror.globo.tech/ msg: 文件过期 */
+/* url: http://deepin.mirror.globo.tech/ msg: 403 Forbidden */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp.sjtu.edu.cn/deepin/ msg: Head "http://ftp.sjtu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -36,9 +33,6 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.zetup.net/deepin msg: 500 Internal Server Error */
-a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -72,4 +66,7 @@ a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
