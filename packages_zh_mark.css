@@ -4,10 +4,7 @@ a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white;
 /* url: http://deepin.mirror.globo.tech/ msg: 文件过期 */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.belnet.be/mirror/deepin/ msg: Head "http://ftp.belnet.be/mirror/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp.harukasan.org/deepin/ msg: 404 Not Found */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
@@ -19,7 +16,7 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.librelabucm.org/deepin/ msg: 文件过期 */
+/* url: http://mirror.librelabucm.org/deepin/ msg: Head "http://mirror.librelabucm.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
@@ -40,7 +37,7 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; c
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
@@ -49,7 +46,7 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
@@ -58,7 +55,7 @@ a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; backgr
 /* url: https://mirror.deepines.com/deepin/ msg: 文件过期 */
 a[href="https://mirror.deepines.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.librelabucm.org/deepin/ msg: 文件过期 */
+/* url: https://mirror.librelabucm.org/deepin/ msg: Head "https://mirror.librelabucm.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
