@@ -7,7 +7,7 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp 123.215.145.59:80: i/o timeout */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
