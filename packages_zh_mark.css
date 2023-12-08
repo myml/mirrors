@@ -10,28 +10,31 @@ a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.hostsuisse.com/deepin/packages msg: Head "http://mirror.hostsuisse.com/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.hostsuisse.com/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.librelabucm.org/deepin/ msg: 文件过期 */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: Head "http://mirror.man.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.ufro.cl/deepin/ msg: Head "http://mirror.ufro.cl/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.ufro.cl/deepin/ msg: 文件过期 */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Head "http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
