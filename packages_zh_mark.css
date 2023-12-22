@@ -7,7 +7,7 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.belnet.be/mirror/deepin/ msg: 文件过期 */
 a[href="http://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
@@ -40,10 +40,7 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; c
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
-a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "http://repo.frcuba.cu/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup repo.frcuba.cu on 127.0.0.53:53: no such host */
+/* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
