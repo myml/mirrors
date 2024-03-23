@@ -1,3 +1,6 @@
+/* url: http://deepin-cd.mirror.globo.tech/ msg: 404 Not Found */
+a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -7,17 +10,20 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Head "http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/ msg: Head "http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup linuxdeepin.hostingxtreme.com on 127.0.0.53:53: no such host */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
+a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.hostsuisse.com/deepin/releases msg: 404 Not Found */
 a[href="http://mirror.hostsuisse.com/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
@@ -40,6 +46,9 @@ a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://sft.if.usp.br/deepin-cd msg: Head "http://sft.if.usp.br/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://sft.if.usp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -52,7 +61,7 @@ a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; ba
 /* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
