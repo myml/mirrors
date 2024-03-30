@@ -67,6 +67,9 @@ a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; backgro
 /* url: https://mirrors.huaweicloud.com/deepin/ msg: 文件过期 */
 a[href="https://mirrors.huaweicloud.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirrors.nju.edu.cn/deepin/ msg: Head "https://mirrors.nju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
