@@ -19,6 +19,9 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.ufro.cl/deepin/ msg: 文件过期 */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
