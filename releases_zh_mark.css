@@ -25,6 +25,9 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; col
 /* url: http://mirror.hostsuisse.com/deepin/releases msg: 404 Not Found */
 a[href="http://mirror.hostsuisse.com/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.librelabucm.org/deepin-cd/ msg: 403 Forbidden */
+a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
