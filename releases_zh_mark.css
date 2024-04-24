@@ -25,6 +25,9 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; col
 /* url: http://mirror.hostsuisse.com/deepin/releases msg: 404 Not Found */
 a[href="http://mirror.hostsuisse.com/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.librelabucm.org/deepin-cd/ msg: Head "http://mirror.librelabucm.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -61,11 +64,17 @@ a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirror.librelabucm.org/deepin-cd/ msg: Head "https://mirror.librelabucm.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.zetup.net/deepin-cd msg: Head "https://mirror.zetup.net/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2024-04-24T02:19:52Z is after 2024-04-23T12:57:59Z */
+a[href="https://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cnnic.cn/deepin-cd/ msg: Head "https://mirrors.cnnic.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
