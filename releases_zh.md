@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2023-05-05T06:56:35.396Z
+date: 2024-04-27T11:44:06.533Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -161,6 +161,13 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td>吉林大学</td>
       <td><a href="http://mirrors.jlu.edu.cn/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.jlu.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>江西理工大学</td>
+      <td><a href="http://mirrors.jxust.edu.cn/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.jxust.edu.cn/deepin-cd/">https</a></td>
       <td></td>
       <td></td>
     </tr>
@@ -572,6 +579,13 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
+      <td>freedif.org</td>
+      <td><a href="https://mirror.freedif.org/Deepin/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232178Slovakia.jpg"> 斯洛伐克</td>
       <td></td>
       <td></td>
@@ -756,6 +770,13 @@ dateCreated: 2022-05-08T13:15:59.655Z
     <tr>
       <td>Centro Universitario Regional del Este</td>
       <td><a href="https://deepin.repo.cure.edu.uy/isos/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MOACK Data Center</td>
+      <td><a href="https://mirror.moack.co.kr/deepin-cd/">https</a></td>
       <td></td>
       <td></td>
       <td></td>
