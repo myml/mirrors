@@ -4,16 +4,13 @@ a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white;
 /* url: http://deepin.mirror.globo.tech/ msg: 404 Not Found */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:80: i/o timeout */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
-a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.librelabucm.org/deepin/ msg: Head "https://mirror.librelabucm.org/deepin/dists/apricot/Contents-amd64.gz": remote error: tls: internal error */
+/* url: http://mirror.librelabucm.org/deepin/ msg: 403 Forbidden */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
@@ -21,6 +18,9 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -55,7 +55,7 @@ a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgr
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.librelabucm.org/deepin/ msg: Head "https://mirror.librelabucm.org/deepin/dists/apricot/Contents-amd64.gz": remote error: tls: internal error */
+/* url: https://mirror.librelabucm.org/deepin/ msg: 文件过期 */
 a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
