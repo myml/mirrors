@@ -19,6 +19,9 @@ a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
+a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.hostsuisse.com/deepin/releases msg: 404 Not Found */
 a[href="http://mirror.hostsuisse.com/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
 
@@ -34,6 +37,9 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 /* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -42,9 +48,6 @@ a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; b
 
 /* url: http://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://sft.if.usp.br/deepin-cd msg: Head "http://sft.if.usp.br/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://sft.if.usp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }

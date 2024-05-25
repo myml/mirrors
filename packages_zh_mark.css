@@ -37,7 +37,7 @@ a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirrors4.hit.edu.cn/deepin msg: Head "http://mirrors4.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors4.hit.edu.cn/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2024-05-24T02:24:14Z is after 2024-05-21T04:57:47Z */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2024-05-25T02:22:03Z is after 2024-05-21T04:57:47Z */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
