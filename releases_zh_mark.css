@@ -1,3 +1,6 @@
+/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://deepin-cd.mirror.globo.tech/ msg: 404 Not Found */
 a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -21,6 +24,9 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
+a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
@@ -78,9 +84,6 @@ a[href="https://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; ba
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
 a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.netix.net/deepin-cd/ msg: Head "https://mirrors.netix.net/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for *.neterra.net, neterra.net, not mirrors.netix.net */
-a[href="https://mirrors.netix.net/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: Head "https://mirrors.njupt.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
