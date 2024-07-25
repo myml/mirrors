@@ -1,6 +1,9 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://deepin.ip-connect.vn.ua/ msg: Head "http://deepin.ip-connect.vn.ua/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://deepin.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://deepin.mirror.globo.tech/ msg: 404 Not Found */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -34,7 +37,7 @@ a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirrors4.hit.edu.cn/deepin msg: Head "http://mirrors4.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors4.hit.edu.cn/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "http://repo.frcuba.cu/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: 404 Not Found */
