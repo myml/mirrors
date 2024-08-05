@@ -46,7 +46,7 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 /* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 文件过期 */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 202.118.254.110:80: i/o timeout */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
