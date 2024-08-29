@@ -22,7 +22,7 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 文件过期 */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.librelabucm.org/deepin-cd/ msg: Head "http://mirror.librelabucm.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
@@ -46,7 +46,7 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 /* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 文件过期 */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 202.118.254.110:80: i/o timeout */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
@@ -73,7 +73,7 @@ a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; ba
 /* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 118.38.208.102:443: i/o timeout */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
