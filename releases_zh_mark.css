@@ -73,7 +73,7 @@ a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; ba
 /* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 175.214.128.79:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
@@ -82,7 +82,7 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.librelabucm.org/deepin-cd/ msg: Head "https://mirror.librelabucm.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for ucm.es, *.ades.ucm.es, *.alu.ucm.es, *.art.ucm.es, *.aula.ucm.es, *.bio.ucm.es, *.ccdoc.ucm.es, *.ccedu.ucm.es, *.ccee.ucm.es, *.ccinf.ucm.es, *.containers.fdi.ucm.es, *.cps.ucm.es, *.cseg.ucm.es, *.dacya.ucm.es, *.der.ucm.es, *.dev-pages.fdi.ucm.es, *.dev.fdi.ucm.es, *.edu.ucm.es, *.emp.ucm.es, *.enf.ucm.es, *.erl.ucm.es, *.esi.ucm.es, *.estad.ucm.es, *.eubd.ucm.es, *.farm.ucm.es, *.fct.ucm.es, *.fdi.ucm.es, *.fgu.ucm.es, *.filol.ucm.es, *.filos.ucm.es, *.fis.ucm.es, *.foa.ucm.es, *.gae.ucm.es, *.geo.ucm.es, *.ghis.ucm.es, *.hst.ucm.es, *.icae.ucm.es, *.icei.ucm.es, *.ieb.ucm.es, *.igeo.ucm.es, *.itc.ucm.es, *.mat.ucm.es, *.med.ucm.es, *.odon.ucm.es, *.opt.ucm.es, *.otripcs.ucm.es, *.pas.ucm.es, *.pdi.ucm.es, *.pgob.ucm.es, *.pluri.ucm.es, *.psi.ucm.es, *.quim.ucm.es, *.rect.ucm.es, *.red.ucm.es, *.sig.ucm.es, *.sim.ucm.es, *.sip.ucm.es, *.sis.ucm.es, *.sme.ucm.es, *.trs.ucm.es, *.ucm.es, *.vet.ucm.es, *.visavet.ucm.es, www.coie.ucm.es, www.ope.ucm.es, not mirror.librelabucm.org */
 a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: Head "https://mirror.lzu.edu.cn/deepin-releases/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2024-09-14T02:38:02Z is after 2024-09-14T02:11:39Z */
+/* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
