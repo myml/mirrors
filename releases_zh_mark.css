@@ -28,9 +28,6 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; col
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.70:50126->213.180.138.90:80: read: connection reset by peer */
-a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -106,7 +103,7 @@ a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; ba
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: Head "https://mirrors.njupt.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: Head "https://mirrors.scau.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
