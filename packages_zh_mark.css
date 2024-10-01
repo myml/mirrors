@@ -4,11 +4,17 @@ a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white;
 /* url: http://deepin.mirror.globo.tech/ msg: 404 Not Found */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:80: i/o timeout */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages msg: Head "http://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
+a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -16,7 +22,7 @@ a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.1.193:58822->213.180.138.90:80: read: connection reset by peer */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirroronet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.98:54606->213.180.138.90:80: read: connection reset by peer */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
@@ -46,8 +52,11 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: i/o timeout */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
