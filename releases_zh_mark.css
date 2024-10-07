@@ -10,7 +10,7 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Head "http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Head "http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 163.13.240.201:80: i/o timeout */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
@@ -25,7 +25,7 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 文件过期 */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
@@ -78,6 +78,9 @@ a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; bac
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for mirror.siwoo.org, www.mirror.siwoo.org, not mirror.anigil.com */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.freedif.org/Deepin/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirror.freedif.org/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
