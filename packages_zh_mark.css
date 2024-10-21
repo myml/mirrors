@@ -7,6 +7,9 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.sjtu.edu.cn/deepin/ msg: Head "http://ftp.sjtu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
