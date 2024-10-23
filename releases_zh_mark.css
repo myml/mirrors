@@ -10,9 +10,6 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.sjtu.edu.cn/deepin-cd/ msg: Head "http://ftp.sjtu.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Head "http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -31,7 +28,7 @@ a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.librelabucm.org/deepin-cd/ msg: 530  */
+/* url: http://mirror.librelabucm.org/deepin-cd/ msg: 502 Bad Gateway */
 a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
@@ -51,6 +48,9 @@ a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 
 /* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 文件过期 */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -88,7 +88,7 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.freedif.org/Deepin/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.freedif.org/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.librelabucm.org/deepin-cd/ msg: 530  */
+/* url: https://mirror.librelabucm.org/deepin-cd/ msg: 502 Bad Gateway */
 a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
