@@ -58,7 +58,7 @@ a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://mirrors.sohu.com/deepin-cd/ msg: 文件过期 */
 a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.up.pt/pub/deepin-cd/ msg: Head "http://mirrors.up.pt/pub/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
@@ -112,10 +112,10 @@ a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; 
 /* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.up.pt/pub/deepin-cd/ msg: Head "https://mirrors.up.pt/pub/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.up.pt/pub/deepin/ msg: Head "https://mirrors.up.pt/pub/deepin/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
