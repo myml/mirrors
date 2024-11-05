@@ -22,7 +22,7 @@ a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; ba
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.118:60114->213.180.138.90:80: read: connection reset by peer */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.99:51430->213.180.138.90:80: read: connection reset by peer */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 文件过期 */
@@ -33,9 +33,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.zetup.net/deepin msg: Head "http://mirror.zetup.net/deepin/dists/apricot/Contents-amd64.gz": dial tcp 109.205.222.4:80: connect: connection refused */
-a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin/ msg: Head "http://mirrors.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -69,9 +66,6 @@ a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; ba
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.zetup.net/deepin msg: Head "https://mirror.zetup.net/deepin/dists/apricot/Contents-amd64.gz": dial tcp 109.205.222.4:443: connect: connection refused */
-a[href="https://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
