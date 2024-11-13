@@ -31,7 +31,7 @@ a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white;
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.108:52918->213.180.138.90:80: read: connection reset by peer */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.73:51606->213.180.138.90:80: read: connection reset by peer */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
