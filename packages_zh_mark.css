@@ -16,7 +16,7 @@ a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-c
 /* url: http://mirror.anigil.com/deepin/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 文件过期 */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
