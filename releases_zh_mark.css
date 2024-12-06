@@ -13,6 +13,12 @@ a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
+a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/ msg: Head "https://ftp2.nluug.nl/os/Linux/distr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for ftp.nluug.nl, ftp.surfnet.nl, not ftp2.nluug.nl */
+a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup linuxdeepin.hostingxtreme.com on 127.0.0.53:53: no such host */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
