@@ -19,7 +19,7 @@ a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-c
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.anigil.com on 127.0.0.53:53: no such host */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 文件过期 */
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
@@ -45,6 +45,9 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: 文件过期 */
 a[href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.163.com/deepin/ msg: Head "http://mirrors.163.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.163.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin/ msg: Head "http://mirrors.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -84,9 +87,6 @@ a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.jlu.edu.cn/deepin/ msg: Head "https://mirrors.jlu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="https://mirrors.jlu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
