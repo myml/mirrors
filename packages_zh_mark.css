@@ -1,6 +1,9 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://deepin.ipacct.com/deepin/ msg: Head "http://deepin.ipacct.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://deepin.ipacct.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://deepin.mirror.globo.tech/ msg: 404 Not Found */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -18,6 +21,9 @@ a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-c
 
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.anigil.com on 127.0.0.53:53: no such host */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: 404 Not Found */
+a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
