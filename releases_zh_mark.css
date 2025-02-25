@@ -31,7 +31,7 @@ a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.librelabucm.org/deepin-cd/ msg: 530  */
+/* url: http://mirror.librelabucm.org/deepin-cd/ msg: 502 Bad Gateway */
 a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
@@ -48,6 +48,9 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 
 /* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.zetup.net/deepin-cd msg: Head "http://mirror.zetup.net/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 109.205.222.4:80: connect: connection refused */
+a[href="http://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -85,7 +88,7 @@ a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: https://mirror.freedif.org/Deepin/deepin-cd/ msg: Head "https://mirror.freedif.org/Deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://mirror.freedif.org/Deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.librelabucm.org/deepin-cd/ msg: 530  */
+/* url: https://mirror.librelabucm.org/deepin-cd/ msg: 502 Bad Gateway */
 a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
@@ -96,6 +99,9 @@ a[href="https://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; backgr
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.zetup.net/deepin-cd msg: Head "https://mirror.zetup.net/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 109.205.222.4:443: connect: connection refused */
+a[href="https://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cnnic.cn/deepin-cd/ msg: Head "https://mirrors.cnnic.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
