@@ -1,14 +1,11 @@
 /* url: http://deepin.ams-01.rexum.space/deepin/ msg: Head "http://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.mirror.globo.tech/ msg: 404 Not Found */
+/* url: http://deepin.mirror.globo.tech/ msg: Head "http://deepin.mirror.globo.tech/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp.sjtu.edu.cn/deepin/ msg: Head "http://ftp.sjtu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp1.nluug.nl/os/Linux/distr/deepin/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
 a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
