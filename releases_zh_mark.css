@@ -7,6 +7,9 @@ a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: whi
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/ msg: Head "http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
