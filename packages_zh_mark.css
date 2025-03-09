@@ -10,6 +10,12 @@ a[href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/packages/"] { padding: 3px; co
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.sjtu.edu.cn/deepin/ msg: Head "http://ftp.sjtu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp1.nluug.nl/os/Linux/distr/deepin/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
 a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -40,10 +46,7 @@ a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
+/* url: http://mirror.ufro.cl/deepin/ msg: 文件过期 */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
@@ -82,7 +85,7 @@ a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; b
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
+/* url: https://mirror.ufro.cl/deepin/ msg: Head "https://mirror.ufro.cl/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
