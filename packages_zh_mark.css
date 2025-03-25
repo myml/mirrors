@@ -7,6 +7,9 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp1.nluug.nl/os/Linux/distr/deepin/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for ftp.nl.freebsd.org, ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
 a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -45,9 +48,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin/ msg: Head "http://mirrors.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
