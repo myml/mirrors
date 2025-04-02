@@ -67,9 +67,6 @@ a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://quantum-mirror.hu/mirrors/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://quantum-mirror.hu/mirrors/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://sft.if.usp.br/deepin-cd msg: Head "http://sft.if.usp.br/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://sft.if.usp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
 
