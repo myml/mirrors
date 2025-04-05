@@ -43,9 +43,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirrors.hit.edu.cn/deepin/ msg: Head "http://mirrors.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
