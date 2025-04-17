@@ -28,9 +28,6 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.anigil.com/deepin-cd/ msg: Head "http://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup mirror.anigil.com on 127.0.0.53:53: no such host */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.hostsuisse.com/deepin/releases msg: Head "http://mirror.hostsuisse.com/deepin/releases/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://mirror.hostsuisse.com/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.librelabucm.org/deepin-cd/ msg: 530  */
 a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -48,9 +45,6 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 
 /* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: Head "http://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -97,6 +91,9 @@ a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirror.moack.co.kr/deepin-cd/ msg: Head "https://mirror.moack.co.kr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-04-17T02:59:40Z is after 2025-04-16T23:59:59Z */
+a[href="https://mirror.moack.co.kr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -109,7 +106,7 @@ a[href="https://mirrors.cnnic.cn/deepin-cd/"] { padding: 3px; color: white; back
 /* url: https://mirrors.hit.edu.cn/deepin-cd/ msg: Head "https://mirrors.hit.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.hit.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "https://mirrors.jxust.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-04-16T03:01:11Z is after 2025-04-14T23:59:59Z */
+/* url: https://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "https://mirrors.jxust.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-04-17T02:59:43Z is after 2025-04-14T23:59:59Z */
 a[href="https://mirrors.jxust.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
