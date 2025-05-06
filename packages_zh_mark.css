@@ -7,6 +7,9 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp1.nluug.nl/os/Linux/distr/deepin/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate is valid for ftp.nl.freebsd.org, ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
 a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -34,17 +37,29 @@ a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
+/* url: http://mirrors.163.com/deepin/ msg: Head "http://mirrors.163.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.163.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.hit.edu.cn/deepin/ msg: Head "http://mirrors.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.hit.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.sohu.com/deepin msg: Head "http://mirrors.sohu.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors4.hit.edu.cn/deepin msg: Head "http://mirrors4.hit.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors4.hit.edu.cn/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
