@@ -28,9 +28,6 @@ a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; ba
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.math.princeton.edu/pub/deepin/ msg: Head "http://mirror.math.princeton.edu/pub/deepin/dists/apricot/Contents-amd64.gz": dial tcp 128.112.18.21:80: connect: connection refused */
-a[href="http://mirror.math.princeton.edu/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -42,9 +39,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
