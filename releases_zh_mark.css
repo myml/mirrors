@@ -88,7 +88,7 @@ a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.moack.co.kr/deepin-cd/ msg: Head "https://mirror.moack.co.kr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.57:59256->103.127.127.8:443: read: connection reset by peer */
+/* url: https://mirror.moack.co.kr/deepin-cd/ msg: Head "https://mirror.moack.co.kr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.111:57538->103.127.127.8:443: read: connection reset by peer */
 a[href="https://mirror.moack.co.kr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
