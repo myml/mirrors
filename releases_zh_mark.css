@@ -13,12 +13,6 @@ a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 104.243.23.112:80: connect: connection refused */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/ msg: Head "https://ftp1.nluug.nl/os/Linux/distr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for ftp.nl.freebsd.org, ftp.nluug.nl, ftp.surfnet.nl, not ftp1.nluug.nl */
-a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/ msg: Head "https://ftp2.nluug.nl/os/Linux/distr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: failed to verify certificate: x509: certificate is valid for ftp.nl.freebsd.org, ftp.nluug.nl, ftp.surfnet.nl, not ftp2.nluug.nl */
-a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup linuxdeepin.hostingxtreme.com on 127.0.0.53:53: no such host */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
@@ -37,9 +31,6 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 /* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.ueb.edu.ec/deepin-cd/ msg: Head "https://mirror.ueb.edu.ec/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://mirror.ueb.edu.ec/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -48,6 +39,9 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 
 /* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
+a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -88,7 +82,7 @@ a[href="https://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white
 /* url: https://mirror.lzu.edu.cn/deepin-releases/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.moack.co.kr/deepin-cd/ msg: Head "https://mirror.moack.co.kr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": tls: invalid signature by the server certificate: crypto/rsa: verification error */
+/* url: https://mirror.moack.co.kr/deepin-cd/ msg: Head "https://mirror.moack.co.kr/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.18:40828->103.127.127.8:443: read: connection reset by peer */
 a[href="https://mirror.moack.co.kr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
@@ -102,6 +96,9 @@ a[href="https://mirrors.cnnic.cn/deepin-cd/"] { padding: 3px; color: white; back
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
 a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
+a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
