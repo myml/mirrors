@@ -49,7 +49,7 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "http://repo.frcuba.cu/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: 404 Not Found */
@@ -78,6 +78,9 @@ a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; backgroun
 
 /* url: https://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="https://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.c0urier.net/linux/deepin/packages/ msg: Head "https://mirrors.c0urier.net/linux/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.c0urier.net/linux/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
