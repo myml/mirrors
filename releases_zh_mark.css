@@ -4,6 +4,9 @@ a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; back
 /* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.acc.umu.se/mirror/linuxdeepin/releases/ msg: Head "http://ftp.acc.umu.se/mirror/linuxdeepin/releases/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://ftp.acc.umu.se/mirror/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
