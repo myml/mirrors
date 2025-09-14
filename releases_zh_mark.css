@@ -10,6 +10,9 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.lysator.liu.se/pub/deepin/releases msg: 500 Internal Server Error */
+a[href="http://ftp.lysator.liu.se/pub/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
@@ -31,17 +34,23 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px;
 /* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirror.ueb.edu.ec/deepin-cd/ msg: Head "https://mirror.ueb.edu.ec/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.unesp.br/deepin-cd msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: 404 Not Found */
+/* url: http://mirror.yandex.ru/mirrors/deepin/releases/ msg: Head "http://mirror.yandex.ru/mirrors/deepin/releases/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://mirror.yandex.ru/mirrors/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.zetup.net/deepin-cd msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 404 Not Found */
+a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
 a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -75,6 +84,9 @@ a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-co
 
 /* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://ftp.lysator.liu.se/pub/deepin/releases msg: 500 Internal Server Error */
+a[href="https://ftp.lysator.liu.se/pub/deepin/releases"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 173.208.218.155:443: connect: connection refused */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
