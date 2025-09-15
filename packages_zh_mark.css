@@ -7,9 +7,6 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.lysator.liu.se/pub/deepin/packages msg: 500 Internal Server Error */
-a[href="http://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin/ msg: 404 Not Found */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -33,6 +30,9 @@ a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -72,9 +72,6 @@ a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white
 
 /* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://ftp.lysator.liu.se/pub/deepin/packages msg: 500 Internal Server Error */
-a[href="https://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp 173.208.218.155:443: connect: connection refused */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
