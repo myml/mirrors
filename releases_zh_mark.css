@@ -1,3 +1,6 @@
+/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://deepin-cd.mirror.globo.tech/ msg: Head "http://deepin-cd.mirror.globo.tech/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -46,6 +49,9 @@ a[href="http://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; backgr
 /* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": EOF */
+a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
 a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -66,6 +72,9 @@ a[href="http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/"] { padding: 3px; 
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "https://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
