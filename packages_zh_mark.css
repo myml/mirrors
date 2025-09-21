@@ -7,9 +7,6 @@ a[href="http://deepin.mirror.globo.tech/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.harukasan.org/deepin/ msg: Head "http://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin/ msg: 404 Not Found */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -40,16 +37,13 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror2.tuxinator.org/deepin/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.aliyun.com/deepin msg: Head "http://mirrors.aliyun.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirrors.aliyun.com/deepin msg: 404 Not Found */
 a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hust.edu.cn/deepin/ msg: Head "http://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
@@ -61,7 +55,7 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "http://repo.frcuba.cu/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: 文件过期 */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
