@@ -10,6 +10,9 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/ msg: Head "http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
@@ -60,6 +63,9 @@ a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; back
 
 /* url: http://quantum-mirror.hu/mirrors/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://quantum-mirror.hu/mirrors/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://sft.if.usp.br/deepin-cd msg: Head "http://sft.if.usp.br/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+a[href="http://sft.if.usp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -115,7 +121,7 @@ a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; ba
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: Head "https://mirrors.scau.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
 a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
