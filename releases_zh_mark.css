@@ -10,9 +10,6 @@ a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; b
 /* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/ msg: Head "http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
-a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
@@ -24,9 +21,6 @@ a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; backgroun
 
 /* url: http://mirror.anigil.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.cedia.org.ec/deepin-cd msg: Head "http://mirror.cedia.org.ec/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": read tcp 10.1.0.247:41990->201.159.221.67:80: read: connection reset by peer */
-a[href="http://mirror.cedia.org.ec/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.librelabucm.org/deepin-cd/ msg: 530 <none> */
 a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
