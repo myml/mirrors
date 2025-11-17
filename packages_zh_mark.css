@@ -52,7 +52,7 @@ a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; backgro
 /* url: http://mirrors.hust.edu.cn/deepin/ msg: Head "http://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
 a[href="http://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
+/* url: http://mirrors.sohu.com/deepin msg: Head "http://mirrors.sohu.com/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.150:51208->110.43.82.141:80: read: connection reset by peer */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
