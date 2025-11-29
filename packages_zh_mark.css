@@ -28,7 +28,7 @@ a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; co
 /* url: http://mirror.onet.pl/pub/mirrors/deepin/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.truenetwork.ru/deepin/ msg: Head "http://mirror.truenetwork.ru/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
@@ -36,9 +36,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
@@ -58,7 +55,7 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-11-28T03:05:52Z is after 2025-11-24T06:33:42Z */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-11-29T03:05:35Z is after 2025-11-24T06:33:42Z */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
