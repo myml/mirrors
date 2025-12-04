@@ -19,9 +19,6 @@ a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.hostsuisse.com/deepin/packages msg: Head "http://mirror.hostsuisse.com/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirror.hostsuisse.com/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.librelabucm.org/deepin/ msg: 530 <none> */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -39,9 +36,6 @@ a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background
 
 /* url: http://mirror.unesp.br/deepin/ msg: 404 Not Found */
 a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.yandex.ru/mirrors/deepin/packages/ msg: 404 Not Found */
-a[href="http://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
@@ -73,7 +67,7 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp 173.208.218.155:443: connect: connection refused */
