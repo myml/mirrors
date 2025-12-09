@@ -22,7 +22,7 @@ a[href="http://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.librelabucm.org/deepin/ msg: 530 <none> */
+/* url: http://mirror.librelabucm.org/deepin/ msg: 502 Bad Gateway */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: 404 Not Found */
@@ -33,9 +33,6 @@ a[href="http://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white
 
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirror.ueb.edu.ec/deepin/ msg: Head "https://mirror.ueb.edu.ec/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirror.ueb.edu.ec/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -76,17 +73,14 @@ a[href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { 
 /* url: https://deepin.ams-01.rexum.space/deepin/ msg: Head "https://deepin.ams-01.rexum.space/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 175.214.128.79:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin/ msg: Head "https://ftp.harukasan.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.anigil.com/deepin/ msg: Head "https://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp 173.208.218.155:443: connect: connection refused */
 a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.librelabucm.org/deepin/ msg: 530  */
+/* url: https://mirror.librelabucm.org/deepin/ msg: 502 Bad Gateway */
 a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirror.lzu.edu.cn/deepin/ msg: Head "https://mirror.lzu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-12-08T03:15:28Z is after 2025-12-07T23:59:59Z */
-a[href="https://mirror.lzu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
