@@ -1,22 +1,31 @@
-/* url: http://deepin-cd.mirror.globo.tech/ msg: Head "http://deepin-cd.mirror.globo.tech/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://deepin-cd.mirror.globo.tech/ msg: Head "http://deepin-cd.mirror.globo.tech/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://deepin-cd.mirror.globo.tech/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
+/* url: http://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "http://deepin.ams-01.rexum.space/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="http://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://ftp.harukasan.org/deepin-cd/ msg: Head "http://ftp.harukasan.org/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp.nluug.nl/os/Linux/distr/deepin-cd/ msg: 404 Not Found */
+a[href="http://ftp.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.sjtu.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
 a[href="http://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://ftp.xdlinux.info/deepin-cd msg: Head "http://ftp.xdlinux.info/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://ftp.xdlinux.info/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup linuxdeepin.hostingxtreme.com on 127.0.0.53:53: no such host */
+/* url: http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/ msg: 404 Not Found */
+a[href="http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/ msg: 404 Not Found */
+a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://linuxdeepin.hostingxtreme.com/deepin-cd msg: Head "http://linuxdeepin.hostingxtreme.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp: lookup linuxdeepin.hostingxtreme.com on 127.0.0.53:53: no such host */
 a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
@@ -31,8 +40,11 @@ a[href="http://mirror.librelabucm.org/deepin-cd/"] { padding: 3px; color: white;
 /* url: http://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: 404 Not Found */
 a[href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Head "http://mirror.onet.pl/pub/mirrors/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirror.ueb.edu.ec/deepin-cd/ msg: Head "https://mirror.ueb.edu.ec/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirror.ueb.edu.ec/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.ufro.cl/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.ufro.cl/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -46,10 +58,10 @@ a[href="http://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; backgr
 /* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.aliyun.com/deepin-cd msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
+/* url: http://mirrors.aliyun.com/deepin-cd msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.aliyun.com/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "http://mirrors.jxust.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "http://mirrors.jxust.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.jxust.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
@@ -58,7 +70,7 @@ a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin-cd/ msg: 文件过期 */
+/* url: http://mirrors.sohu.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
@@ -67,25 +79,25 @@ a[href="http://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; back
 /* url: http://quantum-mirror.hu/mirrors/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://quantum-mirror.hu/mirrors/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
 a[href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "https://deepin.ams-01.rexum.space/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
+/* url: https://deepin.ams-01.rexum.space/deepin-cd/ msg: Head "https://deepin.ams-01.rexum.space/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp: lookup deepin.ams-01.rexum.space on 127.0.0.53:53: no such host */
 a[href="https://deepin.ams-01.rexum.space/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy on 127.0.0.53:53: no such host */
+/* url: https://deepin.repo.cure.edu.uy/isos/ msg: Head "https://deepin.repo.cure.edu.uy/isos/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp: lookup deepin.repo.cure.edu.uy on 127.0.0.53:53: no such host */
 a[href="https://deepin.repo.cure.edu.uy/isos/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 175.214.128.79:443: connect: connection refused */
+/* url: https://ftp.harukasan.org/deepin-cd/ msg: Head "https://ftp.harukasan.org/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 118.38.208.102:443: connect: connection refused */
 a[href="https://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp 173.208.218.155:443: connect: connection refused */
+/* url: https://mirror.anigil.com/deepin-cd/ msg: Head "https://mirror.anigil.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 173.208.218.155:443: connect: connection refused */
 a[href="https://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.freedif.org/Deepin/deepin-cd/ msg: 404 Not Found */
@@ -109,10 +121,10 @@ a[href="https://mirror.ufro.cl/deepin/"] { padding: 3px; color: white; backgroun
 /* url: https://mirror.zetup.net/deepin-cd msg: 404 Not Found */
 a[href="https://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.cnnic.cn/deepin-cd/ msg: Head "https://mirrors.cnnic.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
+/* url: https://mirrors.cnnic.cn/deepin-cd/ msg: Head "https://mirrors.cnnic.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "https://mirrors.jxust.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.jxust.edu.cn/deepin-cd/ msg: Head "https://mirrors.jxust.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.jxust.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
@@ -124,13 +136,13 @@ a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; ba
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: Head "https://mirrors.scau.edu.cn/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.scau.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
 a[href="https://mirrors.scau.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.up.pt/pub/deepin-cd/ msg: Head "https://mirrors.up.pt/pub/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.up.pt/pub/deepin/ msg: Head "https://mirrors.up.pt/pub/deepin/20.9/deepin-desktop-community-20.9-amd64.iso": context deadline exceeded */
+/* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: 404 Not Found */
