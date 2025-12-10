@@ -22,7 +22,7 @@ jobs:
       - name: release_zh
         run: |
           wget https://raw.githubusercontent.com/linuxdeepin/wiki.deepin.org/master/05_HOW-TO/08_镜像加速/镜像源.md -O releases_zh.md
-          go run . -source https://cdimage.deepin.com/releases/ -mirrors releases_zh.md -checkpoint /20.9/deepin-desktop-community-20.9-amd64.iso > releases_zh_mark.css
+          go run . -source https://cdimage.deepin.com/releases/ -mirrors releases_zh.md -checkpoint /25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso > releases_zh_mark.css
       # - name: release_en
       #   run: mirrors -source https://mirrors.aliyun.com/deepin-cd/ -releases_path mirrors/releases_en.md -check_file /20.7/deepin-desktop-community-20.7-amd64.iso > mirrors/releases_en_mark.css
       - uses: stefanzweifel/git-auto-commit-action@v4
