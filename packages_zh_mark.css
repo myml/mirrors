@@ -40,14 +40,11 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror2.tuxinator.org/deepin/ msg: Head "http://mirror2.tuxinator.org/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirror2.tuxinator.org/deepin/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin msg: 404 Not Found */
 a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirrors.hust.edu.cn/deepin/ msg: Head "http://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
-a[href="http://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
@@ -76,7 +73,7 @@ a[href="https://mirror.anigil.com/deepin/"] { padding: 3px; color: white; backgr
 /* url: https://mirror.librelabucm.org/deepin/ msg: 502 Bad Gateway */
 a[href="https://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
+/* url: https://mirror.truenetwork.ru/deepin/ msg: Head "https://mirror.truenetwork.ru/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.ufro.cl/deepin/ msg: 404 Not Found */
