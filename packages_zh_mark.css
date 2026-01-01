@@ -19,9 +19,6 @@ a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
 a[href="http://mirror.dgn.net.tr/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.hostsuisse.com/deepin/packages msg: Head "http://mirror.hostsuisse.com/deepin/packages/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirror.hostsuisse.com/deepin/packages"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirror.librelabucm.org/deepin/ msg: 502 Bad Gateway */
 a[href="http://mirror.librelabucm.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -52,7 +49,10 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 /* url: http://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2025-12-31T03:20:57Z is after 2025-11-24T06:33:42Z */
+/* url: http://quantum-mirror.hu/mirrors/pub/deepin/ msg: Head "http://quantum-mirror.hu/mirrors/pub/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
@@ -90,4 +90,7 @@ a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; backgr
 
 /* url: https://mirrors.xtom.com/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.xtom.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://quantum-mirror.hu/mirrors/pub/deepin/ msg: Head "https://quantum-mirror.hu/mirrors/pub/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
