@@ -10,10 +10,10 @@ a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin/ msg: 404 Not Found */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.0x.sg/deepin/ msg: Head "https://mirror.0x.sg/deepin/dists/apricot/Contents-amd64.gz": dial tcp 103.230.51.19:443: connect: connection refused */
+/* url: http://mirror.0x.sg/deepin/ msg: 404 Not Found */
 a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.25:57536->208.91.197.46:80: read: connection reset by peer */
+/* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.103:58686->208.91.197.46:80: read: connection reset by peer */
 a[href="http://mirror.anigil.com/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.dgn.net.tr/deepin/ msg: Head "http://mirror.dgn.net.tr/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.dgn.net.tr on 127.0.0.53:53: no such host */
@@ -40,8 +40,8 @@ a[href="http://mirror.unesp.br/deepin/"] { padding: 3px; color: white; backgroun
 /* url: http://mirror.zetup.net/deepin msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.kernel.org/deepin/ msg: Head "http://mirrors.kernel.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 142.0.200.124:80: connect: connection refused */
-a[href="http://mirrors.kernel.org/deepin/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://mirrors.aliyun.com/deepin msg: Head "http://mirrors.aliyun.com/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="http://mirrors.aliyun.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
@@ -52,7 +52,7 @@ a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://quantum-mirror.hu/mirrors/pub/deepin/ msg: Head "http://quantum-mirror.hu/mirrors/pub/deepin/dists/apricot/Contents-amd64.gz": dial tcp 127.0.0.1:80: connect: connection refused */
 a[href="http://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-02-14T04:02:30Z is after 2025-11-24T06:33:42Z */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
@@ -84,9 +84,6 @@ a[href="https://mirror.zetup.net/deepin"] { padding: 3px; color: white; backgrou
 
 /* url: https://mirrors.cnnic.cn/deepin/ msg: Head "https://mirrors.cnnic.cn/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirrors.cnnic.cn on 127.0.0.53:53: no such host */
 a[href="https://mirrors.cnnic.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.kernel.org/deepin msg: Head "https://mirrors.kernel.org/deepin/dists/apricot/Contents-amd64.gz": dial tcp 142.0.200.124:443: connect: connection refused */
-a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.up.pt/pub/deepin/ msg: 404 Not Found */
 a[href="https://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
