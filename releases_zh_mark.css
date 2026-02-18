@@ -34,7 +34,7 @@ a[href="http://linuxdeepin.hostingxtreme.com/deepin-cd"] { padding: 3px; color: 
 /* url: http://mirror.0x.sg/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror.0x.sg/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.anigil.com/deepin-cd/ msg: Head "http://mirror.anigil.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": read tcp 10.1.0.11:49526->208.91.197.46:80: read: connection reset by peer */
+/* url: http://mirror.anigil.com/deepin-cd/ msg: Head "http://mirror.anigil.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": read tcp 10.1.0.120:36374->208.91.197.46:80: read: connection reset by peer */
 a[href="http://mirror.anigil.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.librelabucm.org/deepin-cd/ msg: 502 Bad Gateway */
@@ -55,7 +55,7 @@ a[href="http://mirror.unesp.br/deepin-cd"] { padding: 3px; color: white; backgro
 /* url: http://mirror.zetup.net/deepin-cd msg: 404 Not Found */
 a[href="http://mirror.zetup.net/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 403 Forbidden */
+/* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin-cd msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
@@ -70,7 +70,7 @@ a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; bac
 /* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin-cd/ msg: Head "http://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+/* url: http://mirrors.sohu.com/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.up.pt/pub/deepin-cd/ msg: 404 Not Found */
