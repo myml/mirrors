@@ -10,7 +10,7 @@ a[href="http://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://ftp.tku.edu.tw/Linux/Deepin/deepin/ msg: 404 Not Found */
 a[href="http://ftp.tku.edu.tw/Linux/Deepin/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.0x.sg/deepin/ msg: 404 Not Found */
+/* url: http://mirror.0x.sg/deepin/ msg: Head "http://mirror.0x.sg/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.0x.sg/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.anigil.com/deepin/ msg: Head "http://mirror.anigil.com/deepin/dists/apricot/Contents-amd64.gz": dial tcp: lookup mirror.anigil.com on 127.0.0.53:53: no such host */
@@ -52,7 +52,7 @@ a[href="http://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; backgro
 /* url: http://quantum-mirror.hu/mirrors/pub/deepin/ msg: Head "http://quantum-mirror.hu/mirrors/pub/deepin/dists/apricot/Contents-amd64.gz": dial tcp 127.0.0.1:80: connect: connection refused */
 a[href="http://quantum-mirror.hu/mirrors/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": context deadline exceeded */
+/* url: http://repo.frcuba.cu/deepin/ msg: Head "https://www.frcuba.cu": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-03-08T04:03:34Z is after 2025-11-24T06:33:42Z */
 a[href="http://repo.frcuba.cu/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://www.ftp.ne.jp/Linux/packages/deepin/deepin/ msg: Head "http://www.ftp.ne.jp/Linux/packages/deepin/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
