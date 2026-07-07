@@ -19,6 +19,9 @@ a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; backgroun
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: https://mirrors.cqu.edu.cn/deepin/ msg: Head "https://mirrors.cqu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+a[href="https://mirrors.cqu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: https://mirrors.hust.edu.cn/deepin/ msg: Head "https://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
 a[href="https://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
