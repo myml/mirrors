@@ -7,7 +7,7 @@ a[href="http://ftp2.nluug.nl/os/Linux/distr/deepin/"] { padding: 3px; color: whi
 /* url: http://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="http://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.hust.edu.cn/deepin/ msg: Head "http://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirrors.hust.edu.cn/deepin/ msg: Head "http://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
 a[href="http://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.ircam.fr/pub/deepin/ msg: 404 Not Found */
@@ -22,6 +22,6 @@ a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; ba
 /* url: https://mirrors.cqu.edu.cn/deepin/ msg: Head "https://mirrors.cqu.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirrors.cqu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.hust.edu.cn/deepin/ msg: Head "https://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.hust.edu.cn/deepin/ msg: Head "https://mirrors.hust.edu.cn/deepin/dists/apricot/Contents-amd64.gz": EOF */
 a[href="https://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
