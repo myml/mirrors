@@ -13,7 +13,7 @@ a[href="http://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; backg
 /* url: http://mirrors.ircam.fr/pub/deepin/ msg: 404 Not Found */
 a[href="http://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
+/* url: http://mirrors.sohu.com/deepin msg: Head "http://mirrors.sohu.com/deepin/dists/apricot/Contents-amd64.gz": read tcp 10.1.0.170:37670->110.43.82.141:80: read: connection reset by peer */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
