@@ -1,7 +1,7 @@
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 403 Forbidden */
+/* url: http://mirror2.tuxinator.org/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin-cd msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
@@ -10,14 +10,11 @@ a[href="http://mirrors.aliyun.com/deepin-cd"] { padding: 3px; color: white; back
 /* url: http://mirrors.ircam.fr/pub/deepin-cd/ msg: 404 Not Found */
 a[href="http://mirrors.ircam.fr/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
+/* url: http://mirrors.nju.edu.cn/deepin-cd/ msg: Head "http://mirrors.nju.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="http://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://mirrors.sohu.com/deepin-cd/ msg: Head "http://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://sft.if.usp.br/deepin-cd msg: 403 Forbidden */
-a[href="http://sft.if.usp.br/deepin-cd"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://ftp.fau.de/deepin/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: gray; }
@@ -30,6 +27,9 @@ a[href="https://mirrors.cqu.edu.cn/github-release/deepin-community/deepin-WSL/"]
 
 /* url: https://mirrors.kernel.org/deepin msg: 404 Not Found */
 a[href="https://mirrors.kernel.org/deepin"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.nju.edu.cn/deepin-cd/ msg: Head "https://mirrors.nju.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.njupt.edu.cn/deepin-cd/ msg: 403 Forbidden */
 a[href="https://mirrors.njupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
