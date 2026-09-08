@@ -1,7 +1,7 @@
 /* url: http://ftp.belnet.be/mirror/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/ msg: 502 Bad Gateway */
+/* url: http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/ msg: 404 Not Found */
 a[href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: Head "http://mirror.bytemark.co.uk/linuxdeepin/releases/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
