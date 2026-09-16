@@ -19,12 +19,6 @@ a[href="http://mirrors.hust.edu.cn/deepin/"] { padding: 3px; color: white; backg
 /* url: http://mirrors.sohu.com/deepin msg: 文件过期 */
 a[href="http://mirrors.sohu.com/deepin"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.zju.edu.cn/deepin/ msg: Head "http://mirrors.zju.edu.cn/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://mirrors.zju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: http://sft.if.usp.br/deepin/ msg: Head "http://sft.if.usp.br/deepin/dists/apricot/Contents-amd64.gz": context deadline exceeded */
-a[href="http://sft.if.usp.br/deepin/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: https://mirror.truenetwork.ru/deepin/ msg: 404 Not Found */
 a[href="https://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: gray; }
 
