@@ -106,7 +106,7 @@ a[href="http://tux.rainside.sk/deepin/beige/"] { padding: 3px; color: white; bac
 /* url: https://deepin.c3sl.ufpr.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://deepin.c3sl.ufpr.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ip-connect.vn.ua/beige/ msg: Head "https://deepin.ip-connect.vn.ua/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://deepin.ip-connect.vn.ua/beige/ msg: 404 Not Found */
 a[href="https://deepin.ip-connect.vn.ua/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://deepin.mirror.garr.it/mirrors/deepin/beige/ msg: 404 Not Found */
@@ -142,7 +142,7 @@ a[href="https://mirror.sjtu.edu.cn/deepin/beige/"] { padding: 3px; color: white;
 /* url: https://mirror.sysu.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.sysu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.163.com/deepin/beige/ msg: Head "https://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
