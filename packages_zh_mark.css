@@ -70,7 +70,7 @@ a[href="http://mirrors.aliyun.com/deepin/beige/"] { padding: 3px; color: white; 
 /* url: http://mirrors.bfsu.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirrors.bfsu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.c0urier.net/linux/deepin/packages/beige/ msg: 404 Not Found */
+/* url: http://mirrors.c0urier.net/linux/deepin/packages/beige/ msg: Head "https://mirrors.c0urier.net/linux/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.c0urier.net/linux/deepin/packages/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.hit.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -142,7 +142,7 @@ a[href="https://mirror.sjtu.edu.cn/deepin/beige/"] { padding: 3px; color: white;
 /* url: https://mirror.sysu.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.sysu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.163.com/deepin/beige/ msg: Head "https://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-10-07T07:57:31Z is after 2026-10-05T15:31:37Z */
+/* url: https://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
@@ -154,7 +154,7 @@ a[href="https://mirrors.bfsu.edu.cn/deepin/beige/"] { padding: 3px; color: white
 /* url: https://mirrors.c0urier.net/linux/deepin/packages/beige/ msg: 404 Not Found */
 a[href="https://mirrors.c0urier.net/linux/deepin/packages/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.cernet.edu.cn/deepin/beige/ msg: Head "https://mirrors.hust.edu.cn/deepin/beige/dists/apricot/Contents-amd64.gz": EOF */
+/* url: https://mirrors.cernet.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.cernet.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.cicku.me/deepin/beige/ msg: 404 Not Found */
