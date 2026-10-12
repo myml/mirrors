@@ -199,7 +199,7 @@ a[href="https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/"] { padding: 3px; col
 /* url: https://mirrors.ustc.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.volces.com/deepin/beige/ msg: Head "https://mirrors.volces.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.volces.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.volces.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.xtom.de/deepin/beige/ msg: 404 Not Found */
