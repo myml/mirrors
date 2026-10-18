@@ -1,9 +1,12 @@
+/* url: http://mirror.math.princeton.edu/pub/deepin-cd/ msg: Head "http://mirror.math.princeton.edu/pub/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirror.math.princeton.edu/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
 /* url: http://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="http://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="https://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.sohu.com/deepin-cd/ msg: Head "https://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": read tcp 10.1.0.154:44824->110.43.82.83:443: read: connection reset by peer */
-a[href="https://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
