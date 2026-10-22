@@ -49,7 +49,7 @@ a[href="http://mirror.alpix.eu/deepin/beige/"] { padding: 3px; color: white; bac
 /* url: http://mirror.dotsrc.org/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.hostsuisse.com/deepin/packages/beige msg: 404 Not Found */
+/* url: http://mirror.hostsuisse.com/deepin/packages/beige msg: Head "http://mirror.hostsuisse.com/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirror.hostsuisse.com/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.math.princeton.edu/pub/deepin/beige/ msg: 404 Not Found */
@@ -82,7 +82,7 @@ a[href="http://mirrors.hust.edu.cn/deepin/beige/"] { padding: 3px; color: white;
 /* url: http://mirrors.ircam.fr/pub/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirrors.ircam.fr/pub/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.kernel.org/deepin/beige/ msg: 404 Not Found */
+/* url: http://mirrors.kernel.org/deepin/beige/ msg: Head "http://mirrors.kernel.org/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://mirrors.kernel.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.netix.net/deepin/beige/ msg: 404 Not Found */
@@ -142,7 +142,7 @@ a[href="https://mirror.sjtu.edu.cn/deepin/beige/"] { padding: 3px; color: white;
 /* url: https://mirror.sysu.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.sysu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.163.com/deepin/beige/ msg: Head "https://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
