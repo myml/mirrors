@@ -22,7 +22,7 @@ a[href="http://ftp.gwdg.de/pub/linux/linuxdeepin/deepin/beige/"] { padding: 3px;
 /* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/beige/ msg: 404 Not Found */
 a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "http://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
 a[href="http://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.nluug.nl/os/Linux/distr/deepin/beige/ msg: 404 Not Found */
@@ -61,7 +61,7 @@ a[href="http://mirror.xeonbd.com/deepin/beige/"] { padding: 3px; color: white; b
 /* url: http://mirror.yandex.ru/mirrors/deepin/packages/beige/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/packages/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.163.com/deepin/beige/ msg: Head "http://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
@@ -115,7 +115,7 @@ a[href="https://deepin.mirror.garr.it/mirrors/deepin/beige/"] { padding: 3px; co
 /* url: https://ftp.fau.de/deepin/beige/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.aarnet.edu.au/deepin/beige/ msg: 404 Not Found */
