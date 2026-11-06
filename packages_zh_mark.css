@@ -22,7 +22,7 @@ a[href="http://ftp.gwdg.de/pub/linux/linuxdeepin/deepin/beige/"] { padding: 3px;
 /* url: http://ftp.jaist.ac.jp/pub/Linux/deepin/beige/ msg: 404 Not Found */
 a[href="http://ftp.jaist.ac.jp/pub/Linux/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "http://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
 a[href="http://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.nluug.nl/os/Linux/distr/deepin/beige/ msg: 404 Not Found */
@@ -40,7 +40,7 @@ a[href="http://ftp.snt.utwente.nl/pub/os/linux/deepin/beige"] { padding: 3px; co
 /* url: http://ftp.uni-erlangen.de/deepin/beige/ msg: 404 Not Found */
 a[href="http://ftp.uni-erlangen.de/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://kartolo.sby.datautama.net.id/deepin/beige/ msg: 404 Not Found */
+/* url: http://kartolo.sby.datautama.net.id/deepin/beige/ msg: Head "http://kartolo.sby.datautama.net.id/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://kartolo.sby.datautama.net.id/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.aarnet.edu.au/deepin/beige/ msg: 404 Not Found */
@@ -124,7 +124,7 @@ a[href="https://deepin.mirror.garr.it/mirrors/deepin/beige/"] { padding: 3px; co
 /* url: https://ftp.fau.de/deepin/beige/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
 a[href="https://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.aarnet.edu.au/deepin/beige/ msg: 404 Not Found */
@@ -157,7 +157,7 @@ a[href="https://mirror.sysu.edu.cn/deepin/beige/"] { padding: 3px; color: white;
 /* url: https://mirror.unesp.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.unesp.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.163.com/deepin/beige/ msg: Head "https://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
@@ -193,7 +193,7 @@ a[href="https://mirrors.hust.edu.cn/deepin/beige/"] { padding: 3px; color: white
 /* url: https://mirrors.ic.unicamp.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.ic.unicamp.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.ircam.fr/pub/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirrors.ircam.fr/pub/deepin/beige/ msg: Head "https://mirrors.ircam.fr/pub/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirrors.ircam.fr/pub/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.jlu.edu.cn/deepin/beige/ msg: 404 Not Found */
