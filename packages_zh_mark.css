@@ -124,7 +124,7 @@ a[href="https://deepin.mirror.garr.it/mirrors/deepin/beige/"] { padding: 3px; co
 /* url: https://ftp.fau.de/deepin/beige/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
 a[href="https://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.aarnet.edu.au/deepin/beige/ msg: 404 Not Found */
@@ -142,7 +142,7 @@ a[href="https://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; 
 /* url: https://mirror.eu.ossplanet.net/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.eu.ossplanet.net/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.lzu.edu.cn/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirror.lzu.edu.cn/deepin/beige/ msg: Head "https://mirror.lzu.edu.cn/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirror.lzu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.nyist.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -223,6 +223,6 @@ a[href="https://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white
 /* url: https://mirrors.volces.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.volces.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.zju.edu.cn/deepin/beige/ msg: Head "https://mirrors.zju.edu.cn/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.zju.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.zju.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
