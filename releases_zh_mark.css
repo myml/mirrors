@@ -1,6 +1,3 @@
-/* url: http://ftp.sjtu.edu.cn/deepin-cd/ msg: 429 Too Many Requests */
-a[href="http://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
 /* url: http://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="http://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
@@ -9,7 +6,4 @@ a[href="https://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; backg
 
 /* url: https://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="https://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.mirrorz.org/deepin-cd/ msg: 404 Not Found */
-a[href="https://mirrors.mirrorz.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
