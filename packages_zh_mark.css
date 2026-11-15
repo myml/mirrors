@@ -103,7 +103,7 @@ a[href="http://mirrors.nju.edu.cn/deepin/beige/"] { padding: 3px; color: white; 
 /* url: http://mirrors.tuna.tsinghua.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirrors.tuna.tsinghua.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.ustc.edu.cn/deepin/beige/ msg: 404 Not Found */
+/* url: http://mirrors.ustc.edu.cn/deepin/beige/ msg: 403 Forbidden */
 a[href="http://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.zju.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -115,7 +115,7 @@ a[href="http://tux.rainside.sk/deepin/beige/"] { padding: 3px; color: white; bac
 /* url: https://deepin.c3sl.ufpr.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://deepin.c3sl.ufpr.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ip-connect.vn.ua/beige/ msg: 404 Not Found */
+/* url: https://deepin.ip-connect.vn.ua/beige/ msg: Head "https://deepin.ip-connect.vn.ua/beige/dists/apricot/Contents-amd64.gz": dial tcp 91.236.251.34:443: connect: connection refused */
 a[href="https://deepin.ip-connect.vn.ua/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://deepin.mirror.garr.it/mirrors/deepin/beige/ msg: 404 Not Found */
@@ -124,7 +124,7 @@ a[href="https://deepin.mirror.garr.it/mirrors/deepin/beige/"] { padding: 3px; co
 /* url: https://ftp.fau.de/deepin/beige/ msg: 404 Not Found */
 a[href="https://ftp.fau.de/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: Head "https://ftp.lysator.liu.se/pub/deepin/packages/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://ftp.lysator.liu.se/pub/deepin/packages/beige msg: 404 Not Found */
 a[href="https://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.aarnet.edu.au/deepin/beige/ msg: 404 Not Found */
@@ -217,7 +217,7 @@ a[href="https://mirrors.shanghaitech.edu.cn/deepin/beige/"] { padding: 3px; colo
 /* url: https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.ustc.edu.cn/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirrors.ustc.edu.cn/deepin/beige/ msg: 403 Forbidden */
 a[href="https://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.volces.com/deepin/beige/ msg: 404 Not Found */
