@@ -1,8 +1,14 @@
 /* url: http://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="http://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.ircam.fr/pub/deepin-cd/ msg: Head "http://mirrors.ircam.fr/pub/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="http://mirrors.ircam.fr/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://mirrors.kernel.org/deepin-cd/ msg: Head "http://mirrors.kernel.org/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.kernel.org/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: http://mirrors.sohu.com/deepin-cd/ msg: Head "http://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirror.lzu.edu.cn/deepin-cd/ msg: 404 Not Found */
+a[href="https://mirror.lzu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.163.com/deepin-cd/ msg: Head "https://mirrors.163.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -10,9 +16,6 @@ a[href="https://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; backg
 /* url: https://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="https://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.ircam.fr/pub/deepin-cd/ msg: Head "https://mirrors.ircam.fr/pub/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="https://mirrors.ircam.fr/pub/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://mirrors.qlu.edu.cn/deepin-cd/ msg: Head "https://mirrors.qlu.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="https://mirrors.qlu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+/* url: https://mirrors.sohu.com/deepin-cd/ msg: Head "https://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="https://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
