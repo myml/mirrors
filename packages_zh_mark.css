@@ -115,7 +115,7 @@ a[href="http://tux.rainside.sk/deepin/beige/"] { padding: 3px; color: white; bac
 /* url: https://deepin.c3sl.ufpr.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://deepin.c3sl.ufpr.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://deepin.ip-connect.vn.ua/beige/ msg: Head "https://deepin.ip-connect.vn.ua/beige/dists/apricot/Contents-amd64.gz": read tcp 10.0.131.2:38928->91.236.251.34:443: read: connection reset by peer */
+/* url: https://deepin.ip-connect.vn.ua/beige/ msg: 404 Not Found */
 a[href="https://deepin.ip-connect.vn.ua/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://deepin.mirror.garr.it/mirrors/deepin/beige/ msg: 404 Not Found */
@@ -193,7 +193,7 @@ a[href="https://mirrors.hust.edu.cn/deepin/beige/"] { padding: 3px; color: white
 /* url: https://mirrors.ic.unicamp.br/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.ic.unicamp.br/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.ircam.fr/pub/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirrors.ircam.fr/pub/deepin/beige/ msg: Head "https://mirrors.ircam.fr/pub/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirrors.ircam.fr/pub/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.jlu.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -208,7 +208,7 @@ a[href="https://mirrors.netix.net/deepin/beige/"] { padding: 3px; color: white; 
 /* url: https://mirrors.nju.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.nju.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.qlu.edu.cn/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirrors.qlu.edu.cn/deepin/beige/ msg: Head "https://mirrors.qlu.edu.cn/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirrors.qlu.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.shanghaitech.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -223,6 +223,6 @@ a[href="https://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white
 /* url: https://mirrors.volces.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.volces.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.zju.edu.cn/deepin/beige/ msg: Head "https://mirrors.zju.edu.cn/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: https://mirrors.zju.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.zju.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
