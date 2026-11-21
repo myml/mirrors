@@ -1,14 +1,11 @@
-/* url: http://deepin-cd.ip-connect.vn.ua/ msg: Head "http://deepin-cd.ip-connect.vn.ua/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="http://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://ftp.lysator.liu.se/pub/deepin/releases/ msg: Head "http://ftp.lysator.liu.se/pub/deepin/releases/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="http://ftp.lysator.liu.se/pub/deepin/releases/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.163.com/deepin-cd/ msg: Head "http://mirrors.163.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="http://mirrors.163.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="http://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
-
-/* url: https://deepin-cd.ip-connect.vn.ua/ msg: Head "https://deepin-cd.ip-connect.vn.ua/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="https://deepin-cd.ip-connect.vn.ua/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.lzu.edu.cn/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
