@@ -1,8 +1,8 @@
 /* url: http://mirrors.aliyun.com/deepin-cd/ msg: Head "http://iso-osm.mirrors.aliyuncs.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": dial tcp 8.132.237.172:80: connect: connection refused */
 a[href="http://mirrors.aliyun.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.zju.edu.cn/deepin-cd/ msg: Head "http://mirrors.zju.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
-a[href="http://mirrors.zju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+/* url: http://mirrors.sohu.com/deepin-cd/ msg: Head "http://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": read tcp 10.1.0.55:49438->110.43.82.83:80: read: connection reset by peer */
+a[href="http://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.lzu.edu.cn/deepin-cd/ msg: 404 Not Found */
 a[href="https://mirror.lzu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
@@ -15,4 +15,7 @@ a[href="https://mirrors.cqupt.edu.cn/deepin-cd/"] { padding: 3px; color: white; 
 
 /* url: https://mirrors.sohu.com/deepin-cd/ msg: Head "https://mirrors.sohu.com/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
 a[href="https://mirrors.sohu.com/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
+
+/* url: https://mirrors.zju.edu.cn/deepin-cd/ msg: Head "https://mirrors.zju.edu.cn/deepin-cd/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso": context deadline exceeded */
+a[href="https://mirrors.zju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: gray; }
 
