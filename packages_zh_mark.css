@@ -49,7 +49,7 @@ a[href="http://mirror.aarnet.edu.au/deepin/beige/"] { padding: 3px; color: white
 /* url: http://mirror.alpix.eu/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirror.alpix.eu/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.dotsrc.org/deepin/beige/ msg: 404 Not Found */
+/* url: http://mirror.dotsrc.org/deepin/beige/ msg: Head "http://mirror.dotsrc.org/deepin/beige/dists/apricot/Contents-amd64.gz": dial tcp 130.225.254.116:80: connect: connection refused */
 a[href="http://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.eu.ossplanet.net/deepin/beige/ msg: 404 Not Found */
@@ -136,7 +136,7 @@ a[href="https://mirror.alpix.eu/deepin/beige/"] { padding: 3px; color: white; ba
 /* url: https://mirror.deepines.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.deepines.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.dotsrc.org/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirror.dotsrc.org/deepin/beige/ msg: Head "https://mirror.dotsrc.org/deepin/beige/dists/apricot/Contents-amd64.gz": dial tcp 130.225.254.116:443: connect: connection refused */
 a[href="https://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.eu.ossplanet.net/deepin/beige/ msg: 404 Not Found */
