@@ -28,7 +28,7 @@ a[href="http://ftp.lysator.liu.se/pub/deepin/packages/beige"] { padding: 3px; co
 /* url: http://ftp.nluug.nl/os/Linux/distr/deepin/beige/ msg: 404 Not Found */
 a[href="http://ftp.nluug.nl/os/Linux/distr/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://ftp.riken.go.jp/Linux/deepin/beige/ msg: 404 Not Found */
+/* url: http://ftp.riken.go.jp/Linux/deepin/beige/ msg: Head "http://ftp.riken.go.jp/Linux/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="http://ftp.riken.go.jp/Linux/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://ftp.sjtu.edu.cn/deepin/beige/ msg: 404 Not Found */
@@ -49,7 +49,7 @@ a[href="http://mirror.aarnet.edu.au/deepin/beige/"] { padding: 3px; color: white
 /* url: http://mirror.alpix.eu/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirror.alpix.eu/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirror.dotsrc.org/deepin/beige/ msg: Head "http://mirror.dotsrc.org/deepin/beige/dists/apricot/Contents-amd64.gz": dial tcp 130.225.254.116:80: connect: connection refused */
+/* url: http://mirror.dotsrc.org/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirror.eu.ossplanet.net/deepin/beige/ msg: 404 Not Found */
@@ -67,7 +67,7 @@ a[href="http://mirror.xeonbd.com/deepin/beige/"] { padding: 3px; color: white; b
 /* url: http://mirror.yandex.ru/mirrors/deepin/packages/beige/ msg: 404 Not Found */
 a[href="http://mirror.yandex.ru/mirrors/deepin/packages/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: http://mirrors.163.com/deepin/beige/ msg: Head "http://mirrors.163.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
+/* url: http://mirrors.163.com/deepin/beige/ msg: 404 Not Found */
 a[href="http://mirrors.163.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: http://mirrors.aliyun.com/deepin/beige/ msg: 404 Not Found */
@@ -136,7 +136,7 @@ a[href="https://mirror.alpix.eu/deepin/beige/"] { padding: 3px; color: white; ba
 /* url: https://mirror.deepines.com/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.deepines.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirror.dotsrc.org/deepin/beige/ msg: Head "https://mirror.dotsrc.org/deepin/beige/dists/apricot/Contents-amd64.gz": dial tcp 130.225.254.116:443: connect: connection refused */
+/* url: https://mirror.dotsrc.org/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirror.dotsrc.org/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirror.eu.ossplanet.net/deepin/beige/ msg: 404 Not Found */
@@ -220,7 +220,7 @@ a[href="https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/"] { padding: 3px; col
 /* url: https://mirrors.ustc.edu.cn/deepin/beige/ msg: 404 Not Found */
 a[href="https://mirrors.ustc.edu.cn/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
-/* url: https://mirrors.volces.com/deepin/beige/ msg: 404 Not Found */
+/* url: https://mirrors.volces.com/deepin/beige/ msg: Head "https://mirrors.volces.com/deepin/beige/dists/apricot/Contents-amd64.gz": context deadline exceeded */
 a[href="https://mirrors.volces.com/deepin/beige/"] { padding: 3px; color: white; background-color: gray; }
 
 /* url: https://mirrors.zju.edu.cn/deepin/beige/ msg: 404 Not Found */
